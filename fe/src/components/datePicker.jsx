@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { format } from "date-fns";
+import { format, differenceInDays } from "date-fns";
 import { Calendar as CalendarIcon, SendHorizontal } from "lucide-react";
 
 import { cn } from "@/lib/utils";
@@ -12,10 +12,11 @@ import {
   PopoverTrigger,
 } from "@/components/ui/popover";
 import { useRouter } from "next/navigation";
+import { useTravelPlan } from "@/context/TravelPlanContext";
 
 const DateRangePicker = () => {
-  const [selectedDate, setSelectedDate] = useState(null);
   const [error, setError] = useState("");
+  const { travelPlan, setTravelPlan } = useTravelPlan();
   const router = useRouter();
 
   const handleDateChange = (date) => {
@@ -29,20 +30,32 @@ const DateRangePicker = () => {
           : format(date.from, "LLL dd, y")
         : "When do you want to go?";
 
-      setSelectedDate({
-        from: date.from,
-        to: date.to,
-        formatted: formattedDate,
+      const duration =
+        date.from && date.to ? differenceInDays(date.to, date.from) + 1 : null;
+
+      const fromDate = date.from ? format(date.from, "yyyy-MM-dd") : null;
+      const toDate = date.to ? format(date.to, "yyyy-MM-dd") : null;
+
+      setTravelPlan({
+        ...travelPlan,
+        dates: {
+          formatted: formattedDate,
+          from: date.from,
+          to: date.to,
+        },
+        start_date: fromDate,
+        end_date: toDate,
+        duration,
       });
     }
   };
 
   const saveDate = () => {
-    if (!selectedDate?.from) {
+    if (!travelPlan?.dates?.from) {
       setError("Please select a start date");
       return;
     }
-    console.log("Selected dates:", selectedDate);
+    console.log("Travel Plan:", travelPlan);
     router.push("/pick-budget");
   };
 
@@ -55,11 +68,11 @@ const DateRangePicker = () => {
             variant="outline"
             className={cn(
               "w-full justify-start text-left font-normal",
-              !selectedDate && "text-muted-foreground"
+              !travelPlan?.dates?.formatted && "text-muted-foreground"
             )}
           >
             <CalendarIcon className="mr-2 h-4 w-4" />
-            {selectedDate?.formatted || (
+            {travelPlan?.dates?.formatted || (
               <span className="text-gray-600">When do you want to go?</span>
             )}
           </Button>
@@ -68,8 +81,11 @@ const DateRangePicker = () => {
           <Calendar
             initialFocus
             mode="range"
-            defaultMonth={selectedDate?.from}
-            selected={{ from: selectedDate?.from, to: selectedDate?.to }}
+            defaultMonth={travelPlan?.dates?.from}
+            selected={{
+              from: travelPlan?.dates?.from,
+              to: travelPlan?.dates?.to,
+            }}
             onSelect={handleDateChange}
             numberOfMonths={2}
           />
@@ -79,7 +95,7 @@ const DateRangePicker = () => {
       {/* Send Button */}
       <Button
         onClick={saveDate}
-        disabled={!selectedDate?.from}
+        disabled={!travelPlan?.dates?.from}
         className="flex-shrink-0"
       >
         <SendHorizontal size={16} />

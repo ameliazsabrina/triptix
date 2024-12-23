@@ -1,5 +1,4 @@
 "use client";
-"use client";
 import React, { useRef, useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -7,6 +6,7 @@ import { SendHorizontal } from "lucide-react";
 import { StandaloneSearchBox, LoadScript } from "@react-google-maps/api";
 import { useRouter } from "next/navigation";
 import { useToast } from "@/components/useToast";
+import { useTravelPlan } from "@/context/TravelPlanContext";
 
 const SearchBar = () => {
   const router = useRouter();
@@ -14,6 +14,8 @@ const SearchBar = () => {
   const inputRef = useRef(null);
   const [selectedLocation, setSelectedLocation] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
+
+  const { setTravelPlan } = useTravelPlan();
 
   const handleLocationsChanged = () => {
     const places = inputRef.current?.getPlaces();
@@ -45,14 +47,17 @@ const SearchBar = () => {
     if (!selectedLocation) {
       toast({
         title: "Error",
-        description: "Please select a destination",
+        description: "Please select a destination before proceeding.",
         variant: "destructive",
       });
-      router.push("/pick-date");
       return;
     }
 
-    console.log("Selected location:", selectedLocation);
+    setTravelPlan((prev) => ({
+      ...prev,
+      locationDetails: selectedLocation,
+      location: selectedLocation.location,
+    }));
 
     setIsLoading(true);
 

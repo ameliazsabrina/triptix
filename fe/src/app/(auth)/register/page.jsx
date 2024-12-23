@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import APIService from "@/route";
+import { useRouter } from "next/navigation";
 
 export default function Register() {
   const [username, setUsername] = useState("");
@@ -12,6 +13,7 @@ export default function Register() {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [loading, setLoading] = useState(false);
+  const router = useRouter();
 
   const handleRegister = async () => {
     if (password !== confirmPassword) {
@@ -32,6 +34,8 @@ export default function Register() {
       setEmail("");
       setPassword("");
       setConfirmPassword("");
+      alert("Registration successful!");
+      router.push("/login");
     } catch (error) {
       console.error("Error registering user:", error.message);
       alert(

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   DropdownMenu,
   DropdownMenuTrigger,
@@ -17,14 +17,38 @@ import {
 } from "@/components/ui/navigation-menu";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import APIService from "@/route";
 
 export default function Header() {
   const [authenticatedUser, setAuthenticatedUser] = useState(null);
   const router = useRouter();
 
-  const handleSignOut = () => {
-    setAuthenticatedUser(null);
-    router.push("/login");
+  // Fetch authenticated user info from the backend
+  useEffect(() => {
+    const fetchAuthenticatedUser = async () => {
+      try {
+        const response = await APIService.user();
+        setAuthenticatedUser(response.data.user); // Adjust this based on your BE response structure
+        console.log("Authenticated user:", response.data.user);
+      } catch (error) {
+        console.error("Failed to fetch user info:", error);
+        setAuthenticatedUser(null);
+      }
+    };
+
+    fetchAuthenticatedUser();
+  }, []);
+
+  const handleSignOut = async () => {
+    try {
+      await APIService.logout();
+      localStorage.removeItem("token");
+      setAuthenticatedUser(null);
+    } catch (error) {
+      console.error("Error during sign-out:", error);
+    } finally {
+      router.push("/");
+    }
   };
 
   const handleLoginRedirect = () => {
@@ -63,7 +87,7 @@ export default function Header() {
                     ? authenticatedUser.displayName.charAt(0).toUpperCase()
                     : authenticatedUser?.email
                     ? authenticatedUser.email.charAt(0).toUpperCase()
-                    : "U"}
+                    : " "}
                 </AvatarFallback>
               </Avatar>
             </DropdownMenuTrigger>

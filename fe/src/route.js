@@ -20,13 +20,18 @@ const APIService = {
   // User endpoints
   register: (userData) => API.post("/register", userData),
   login: (credentials) => API.post("/login", credentials),
+  logout: () => API.post("/logout"),
+  user: () => API.get("/user"),
 
   // Trip endpoints
   generateTrip: (tripData) => API.post("/generate-trip", tripData),
   fetchTrips: () => API.get("/trips"),
+  savePlans: (tripId) => API.put("/saved-plans/" + tripId),
+  deleteTrip: (tripId) => API.delete("/saved-plans/" + tripId),
 
-  // Gemini-related endpoint
+  // API key-related endpoint
   generatePlan: (planData) => API.post("/generate-plan", planData),
+  getLocationPhoto: (planData) => API.get("/location-image", planData),
 };
 
 // Export the APIService for use in the frontend

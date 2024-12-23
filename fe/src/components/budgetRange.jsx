@@ -1,30 +1,69 @@
 "use client";
 import React, { useState } from "react";
-import { Slider } from "@/components/ui/slider";
+import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { SendHorizontal } from "lucide-react";
 import { useRouter } from "next/navigation";
+import { useTravelPlan } from "@/context/TravelPlanContext";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 
 const BudgetRangePicker = () => {
-  const [budgetRange, setBudgetRange] = useState([0, 50000000]);
   const [error, setError] = useState("");
   const router = useRouter();
+  const { travelPlan, setTravelPlan } = useTravelPlan();
+  const [inputValue, setInputValue] = useState(
+    travelPlan?.budget?.toString() || ""
+  );
 
-  const handleBudgetChange = (value) => {
-    setBudgetRange(value);
-  };
+  const handleBudgetChange = (event) => {
+    const value = event.target.value;
+    // Remove all non-numeric characters
+    const numericValue = value.replace(/[^0-9]/g, "");
 
-  const saveBudget = () => {
-    if (budgetRange[0] === 0 && budgetRange[1] === 0) {
-      setError("Please select a budget range");
+    if (numericValue === "") {
+      setInputValue("");
+      setTravelPlan({
+        ...travelPlan,
+        budget: 0,
+      });
       return;
     }
 
-    console.log("Selected budget range:", budgetRange);
+    const numberValue = parseInt(numericValue, 10);
+
+    if (numberValue > 50000000) {
+      setError("Maximum budget is IDR 50,000,000");
+      return;
+    }
+
+    setError("");
+    setInputValue(numericValue);
+    setTravelPlan({
+      ...travelPlan,
+      budget: numberValue,
+    });
+  };
+
+  const saveBudget = () => {
+    const budget = travelPlan?.budget;
+
+    if (!budget || budget === 0) {
+      setError("Please enter a budget amount");
+      return;
+    }
+
+    console.log("Selected budget:", budget);
     router.push("/pick-partners");
   };
 
   const formatCurrency = (value) => {
+    if (!value) return "IDR 0";
     return new Intl.NumberFormat("id-ID", {
       style: "currency",
       currency: "IDR",
@@ -34,32 +73,39 @@ const BudgetRangePicker = () => {
   };
 
   return (
-    <div className="w-full space-y-4">
-      <div className="flex items-center space-x-4">
-        <div className="flex-grow">
-          <Slider
-            defaultValue={[0, 50000000]}
-            max={50000000}
-            step={100000}
-            onValueChange={handleBudgetChange}
-            className="dark"
-          />
-        </div>
-        <div className="flex space-x-2 min-w-[300px] justify-between">
-          <div className="text-sm font-medium">
-            {formatCurrency(budgetRange[0])}
+    <Card className="w-full max-w-md mx-auto">
+      <CardHeader>
+        <CardTitle>Set Your Budget</CardTitle>
+        <CardDescription>
+          Enter your maximum budget for the trip
+        </CardDescription>
+      </CardHeader>
+      <CardContent className="space-y-4">
+        <div className="flex items-center space-x-4">
+          <div className="relative flex-grow">
+            <Input
+              type="text"
+              placeholder="Enter budget amount"
+              value={inputValue ? formatCurrency(parseInt(inputValue)) : ""}
+              onChange={handleBudgetChange}
+              className="pl-12 text-lg"
+            />
+            <span className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500">
+              IDR
+            </span>
           </div>
-          <div className="text-sm font-medium">
-            {formatCurrency(budgetRange[1])}
-          </div>
+          <Button onClick={saveBudget} className="flex-shrink-0">
+            <SendHorizontal size={16} />
+          </Button>
         </div>
-        <Button onClick={saveBudget} className="flex-shrink-0">
-          <SendHorizontal size={16} />
-        </Button>
-      </div>
 
-      {error && <div className="text-red-500 text-sm mt-2">{error}</div>}
-    </div>
+        {error && <div className="text-red-500 text-sm">{error}</div>}
+
+        <div className="text-sm text-gray-500">
+          Maximum budget: IDR 50,000,000
+        </div>
+      </CardContent>
+    </Card>
   );
 };
 

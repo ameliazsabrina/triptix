@@ -4,25 +4,32 @@ import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { User, Users, Heart, Home } from "lucide-react";
+import { useTravelPlan } from "@/context/TravelPlanContext";
 
 const TravelPartner = () => {
-  const [selectedCard, setSelectedCard] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
+  const { travelPlan, setTravelPlan } = useTravelPlan();
 
   const handleCardClick = (card) => {
     const formatted = `Traveling with: ${card}`;
-    setSelectedCard({ name: card, formatted });
+    setTravelPlan({
+      ...travelPlan,
+      partner: { name: card, formatted },
+      travel_partner: card,
+    });
   };
 
   const handleSubmit = () => {
-    if (!selectedCard) {
+    const partner = travelPlan?.partner;
+
+    if (!partner) {
       alert("Please select a travel partner");
       return;
     }
 
     setIsLoading(true);
-    console.log("Selected travel partner:", selectedCard.name);
+    console.log("Selected travel partner:", partner.name);
 
     router.push("/overview");
   };
@@ -43,7 +50,8 @@ const TravelPartner = () => {
             variant="outline"
             className={cn(
               "w-40 h-20 flex items-center justify-center text-lg font-medium",
-              selectedCard?.name === card.name && "bg-earth-dark text-white"
+              travelPlan?.partner?.name === card.name &&
+                "bg-earth-dark text-white"
             )}
             onClick={() => handleCardClick(card.name)}
           >
@@ -57,7 +65,7 @@ const TravelPartner = () => {
       <Button
         variant="outline"
         className="w-40"
-        disabled={!selectedCard || isLoading}
+        disabled={!travelPlan?.partner || isLoading}
         onClick={handleSubmit}
       >
         Submit

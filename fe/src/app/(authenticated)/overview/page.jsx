@@ -1,35 +1,41 @@
 "use client";
-import React from "react";
-import { MapPin, Calendar, DollarSign, Users, Edit, Check } from "lucide-react";
+import React, { useState, useEffect } from "react";
+import { MapPin, Calendar, DollarSign, Users, Edit } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-
 import Header from "@/components/header";
 import { useRouter } from "next/navigation";
+import { useTravelPlan } from "@/context/TravelPlanContext";
+import APIService from "@/route";
 
 const TripOverview = () => {
   const router = useRouter();
-  const handleGenerate = () => {
-    router.push("/generate-result");
+  const { travelPlan } = useTravelPlan();
+  const [isGenerating, setIsGenerating] = useState(false);
+
+  console.log(travelPlan);
+
+  const handleGenerate = async () => {
+    setIsGenerating(true);
+    try {
+      const response = await APIService.generatePlan(travelPlan);
+      console.log(response.data);
+      sessionStorage.setItem("planData", JSON.stringify(response.data));
+      router.push("/generate-result");
+    } catch (error) {
+      console.error(error);
+    } finally {
+      setIsGenerating(false);
+    }
   };
-  const tripDetails = {
-    destination: {
-      name: "Bali, Indonesia",
-      description: "Tropical paradise with beautiful beaches and rich culture",
-    },
-    dates: {
-      start: "15 August 2024",
-      end: "22 August 2024",
-      duration: "7 Days",
-    },
-    budget: {
-      total: "IDR 25,000,000",
-      perPerson: "IDR 5,000,000",
-    },
-    travelPartners: {
-      type: "Friends",
-      count: 4,
-    },
+
+  const formatCurrency = (value) => {
+    return new Intl.NumberFormat("id-ID", {
+      style: "currency",
+      currency: "IDR",
+      minimumFractionDigits: 0,
+      maximumFractionDigits: 0,
+    }).format(value);
   };
 
   return (
@@ -41,6 +47,7 @@ const TripOverview = () => {
         </h1>
 
         <div className="grid md:grid-cols-2 gap-6 mt-6">
+          {/* Destination */}
           <Card>
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
               <CardTitle className="text-sm font-medium flex items-center">
@@ -56,15 +63,11 @@ const TripOverview = () => {
               </Button>
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold">
-                {tripDetails.destination.name}
-              </div>
-              <p className="text-xs text-muted-foreground">
-                {tripDetails.destination.description}
-              </p>
+              <div className="text-2xl font-bold">{travelPlan.location}</div>
             </CardContent>
           </Card>
 
+          {/* Travel Dates */}
           <Card>
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
               <CardTitle className="text-sm font-medium flex items-center">
@@ -80,20 +83,18 @@ const TripOverview = () => {
               </Button>
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold">
-                {tripDetails.dates.duration}
-              </div>
-              <div className="flex justify-between">
-                <p className="text-xs text-muted-foreground">
-                  From: {tripDetails.dates.start}
+              <div className="flex justify-between flex-col">
+                <p className="text-xs text-black/80">
+                  From: {travelPlan.start_date || "N/A"}
                 </p>
-                <p className="text-xs text-muted-foreground">
-                  To: {tripDetails.dates.end}
+                <p className="text-xs text-black/80">
+                  To: {travelPlan.end_date || "N/A"}
                 </p>
               </div>
             </CardContent>
           </Card>
 
+          {/* Budget */}
           <Card>
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
               <CardTitle className="text-sm font-medium flex items-center">
@@ -110,15 +111,12 @@ const TripOverview = () => {
             </CardHeader>
             <CardContent>
               <div className="text-2xl font-bold">
-                {tripDetails.budget.total}
+                {formatCurrency(travelPlan.budget || 0)}
               </div>
-              <p className="text-xs text-muted-foreground">
-                {tripDetails.budget.perPerson} per person
-              </p>
             </CardContent>
           </Card>
 
-          {/* Travel Partners Card */}
+          {/* Travel Partners */}
           <Card>
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
               <CardTitle className="text-sm font-medium flex items-center">
@@ -135,19 +133,19 @@ const TripOverview = () => {
             </CardHeader>
             <CardContent>
               <div className="text-2xl font-bold">
-                {tripDetails.travelPartners.type}
+                {travelPlan.travel_partner || "N/A"}
               </div>
-              <p className="text-xs text-muted-foreground">
-                {tripDetails.travelPartners.count} travelers
-              </p>
             </CardContent>
           </Card>
         </div>
 
         <div className="mt-12 flex justify-center space-x-4">
-          <Button className="dark" onClick={handleGenerate}>
-            <Check className="mr-2 h-4 w-4" />
-            Generate Trip
+          <Button
+            className="dark"
+            onClick={handleGenerate}
+            disabled={isGenerating}
+          >
+            {isGenerating ? "Generating..." : "Generate Plan"}
           </Button>
         </div>
       </div>

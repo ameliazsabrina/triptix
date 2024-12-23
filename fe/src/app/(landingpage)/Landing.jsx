@@ -1,23 +1,51 @@
 "use client";
 
-import React from "react";
-
+import React, { useState, useEffect } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 import { MapPin, Plane, Compass, Globe } from "lucide-react";
+import APIService from "@/route";
 
 function Landing() {
   const router = useRouter();
   const { scrollYProgress } = useScroll();
+  const [isLoading, setIsLoading] = useState(true);
 
   const mapPinY = useTransform(scrollYProgress, [0, 1], ["0%", "-30%"]);
   const planeY = useTransform(scrollYProgress, [0, 1], ["0%", "40%"]);
   const compassY = useTransform(scrollYProgress, [0, 1], ["0%", "-50%"]);
   const globeY = useTransform(scrollYProgress, [0, 1], ["0%", "60%"]);
 
+  const handleStartJourney = async () => {
+    try {
+      const response = await APIService.user();
+      if (response.data) {
+        router.push("/dashboard");
+      } else {
+        router.push("/login");
+      }
+    } catch (error) {
+      console.error("Auth check failed:", error);
+      router.push("/login");
+    }
+  };
+
+  // Check authentication status on mount
+  useEffect(() => {
+    const checkAuth = async () => {
+      try {
+        await APIService.user();
+        setIsLoading(false);
+      } catch (error) {
+        setIsLoading(false);
+      }
+    };
+    checkAuth();
+  }, []);
+
   return (
-    <div className="relative h-screen overflow-hidden ">
+    <div className="relative h-screen overflow-hidden">
       <motion.div
         className="absolute inset-0 z-0"
         style={{
@@ -65,10 +93,11 @@ function Landing() {
           </p>
           <div className="space-y-4">
             <Button
-              onClick={() => router.push("/login")}
+              onClick={handleStartJourney}
               className="w-full py-3"
+              disabled={isLoading}
             >
-              Start Your Journey
+              {isLoading ? "Loading..." : "Start Your Journey"}
             </Button>
           </div>
         </motion.div>

@@ -5,16 +5,39 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import APIService from "@/route";
 
 export default function Login() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const router = useRouter();
+  const [loading, setLoading] = useState(false);
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    try {
+      setLoading(true);
+      const response = await APIService.login({
+        username,
+        password,
+      });
 
-  const handleLogin = () => {
-    console.log("Username:", username);
-    console.log("Password:", password);
-    router.push("/dashboard");
+      localStorage.setItem("token", response.data.token);
+      localStorage.setItem("user", JSON.stringify(response.data.user));
+
+      setUsername("");
+      setPassword("");
+
+      console.log("User:", response.data.user);
+
+      router.push("/dashboard");
+    } catch (error) {
+      console.error("Error logging in:", error);
+      alert(
+        error.response?.data?.message || "An error occurred. Please try again."
+      );
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
