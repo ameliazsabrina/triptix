@@ -1,5 +1,5 @@
 import React from "react";
-import DateRangePicker from "@/components/datepicker";
+import DateRangePicker from "@/components/datePicker";
 import Header from "@/components/header";
 
 const DatePage = () => {

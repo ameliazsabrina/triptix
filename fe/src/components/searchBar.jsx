@@ -78,7 +78,7 @@ const SearchBar = () => {
   return (
     <div className="flex flex-col gap-4">
       <LoadScript
-        googleMapsApiKey={process.env.NEXT_PUBLIC_GOOGLE_MAP_KEY || ""}
+        googleMapsApiKey={"AIzaSyAyh4foZcK_Kcmv8w-yhH0tsJk1XZGu9cU" || ""}
         libraries={["places"]}
       >
         <StandaloneSearchBox
