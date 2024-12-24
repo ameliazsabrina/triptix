@@ -62,7 +62,7 @@ export default function Header() {
         <img src="/LOGO.svg" alt="TripTix" className="h-6 w-auto" />
       </Link>
       <NavigationMenu className="hidden lg:flex">
-        <NavigationMenuList>
+        {/* <NavigationMenuList>
           {["About", "Pricing", "Contact"].map((item) => (
             <NavigationMenuLink asChild key={item}>
               <Link
@@ -73,7 +73,7 @@ export default function Header() {
               </Link>
             </NavigationMenuLink>
           ))}
-        </NavigationMenuList>
+        </NavigationMenuList> */}
       </NavigationMenu>
 
       {/* User Section */}
