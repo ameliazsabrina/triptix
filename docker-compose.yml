@@ -62,5 +62,31 @@ services:
       - frontend
       - be
 
+  nagios:
+    image: jasonrivers/nagios:latest
+    ports:
+      - "8080:80"
+    environment:
+      - NAGIOSADMIN_USER=nagiosadmin
+      - NAGIOSADMIN_PASS=nagios123 # Change this in production
+    volumes:
+      - ./nagios/etc:/opt/nagios/etc
+      - ./nagios/var:/opt/nagios/var
+      - ./nagios/custom-plugins:/opt/Custom-Nagios-Plugins
+    depends_on:
+      - frontend
+      - be
+      - db
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
+
 volumes:
   postgres_data:
+  npm_data:
+  letsencrypt:
+  nagios_etc:
+  nagios_var:
