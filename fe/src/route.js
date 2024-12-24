@@ -28,6 +28,7 @@ const APIService = {
   fetchTrips: () => API.get("/trips"),
   savePlans: (tripId) => API.put("/saved-plans/" + tripId),
   deleteTrip: (tripId) => API.delete("/saved-plans/" + tripId),
+  getTrip: (tripId) => API.get(`/trips/${tripId}`),
 
   // API key-related endpoint
   generatePlan: (planData) => API.post("/generate-plan", planData),

@@ -10,13 +10,16 @@ services:
     environment:
       - NEXT_PUBLIC_GOOGLE_MAP_KEY=AIzaSyAyh4foZcK_Kcmv8w-yhH0tsJk1XZGu9cU
       - NEXT_PUBLIC_GEMINI_API_KEY=AIzaSyB91q6_m5LJlGpH4-TuS1NRS4rqFDkD_Lw
-      - NEXT_PUBLIC_API_URL=http://localhost:5000/api
+      # Ubah URL API menggunakan nama service
+      - NEXT_PUBLIC_API_URL=http://be:5000/api
     volumes:
       - ./fe:/usr/src/app
       - /usr/src/app/node_modules
       - /usr/src/app/.next
     depends_on:
       - be
+    networks:
+      - app_network
 
   be:
     build:
@@ -39,6 +42,8 @@ services:
       - /usr/src/app/node_modules
     depends_on:
       - db
+    networks:
+      - app_network
 
   db:
     image: postgres:15-alpine
@@ -51,6 +56,22 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - app_network
+
+  # Tambahkan service NGROK
+  ngrok:
+    image: wernight/ngrok
+    ports:
+      - "4040:4040"
+    environment:
+      - NGROK_AUTH=${NGROK_AUTH_TOKEN} # Tambahkan token NGROK Anda di .env
+      - NGROK_PROTOCOL=http
+      - NGROK_PORT=web:80 # Arahkan ke service nginx
+    depends_on:
+      - web
+    networks:
+      - app_network
 
   web:
     image: nginx:alpine
@@ -61,6 +82,8 @@ services:
     depends_on:
       - frontend
       - be
+    networks:
+      - app_network
 
   nagios:
     image: jasonrivers/nagios:latest
@@ -68,7 +91,7 @@ services:
       - "8080:80"
     environment:
       - NAGIOSADMIN_USER=nagiosadmin
-      - NAGIOSADMIN_PASS=nagios123 # Change this in production
+      - NAGIOSADMIN_PASS=nagios123
     volumes:
       - ./nagios/etc:/opt/nagios/etc
       - ./nagios/var:/opt/nagios/var

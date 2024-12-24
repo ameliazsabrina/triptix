@@ -61,20 +61,7 @@ export default function Header() {
       <Link href="/" className="mr-6 hidden lg:flex">
         <img src="/LOGO.svg" alt="TripTix" className="h-6 w-auto" />
       </Link>
-      <NavigationMenu className="hidden lg:flex">
-        {/* <NavigationMenuList>
-          {["About", "Pricing", "Contact"].map((item) => (
-            <NavigationMenuLink asChild key={item}>
-              <Link
-                href={`/${item.toLowerCase()}`}
-                className="group inline-flex h-9 w-max items-center justify-center rounded-md bg-white px-4 py-2 text-sm font-medium transition hover:bg-gray-100 focus:outline-none dark:hover:bg-gray-800"
-              >
-                {item}
-              </Link>
-            </NavigationMenuLink>
-          ))}
-        </NavigationMenuList> */}
-      </NavigationMenu>
+      <NavigationMenu className="hidden lg:flex"></NavigationMenu>
 
       {/* User Section */}
       <div className="ml-auto flex items-center gap-4">

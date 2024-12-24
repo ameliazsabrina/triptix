@@ -106,3 +106,137 @@
 [1735012793] Successfully launched command file worker with pid 48
 [1735013384] Caught SIGTERM, shutting down...
 [1735013384] Successfully shutdown... (PID=20)
+[1735013563] Nagios 4.5.7 starting... (PID=25)
+[1735013563] Local time is Tue Dec 24 04:12:43 UTC 2024
+[1735013563] LOG VERSION: 2.0
+[1735013564] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1735013564] qh: core query handler registered
+[1735013564] qh: echo service query handler registered
+[1735013564] qh: help for the query handler registered
+[1735013564] wproc: Successfully registered manager as @wproc with query handler
+[1735013564] wproc: Registry request: name=Core Worker 43;pid=43
+[1735013564] wproc: Registry request: name=Core Worker 40;pid=40
+[1735013564] wproc: Registry request: name=Core Worker 42;pid=42
+[1735013564] wproc: Registry request: name=Core Worker 45;pid=45
+[1735013564] wproc: Registry request: name=Core Worker 44;pid=44
+[1735013564] wproc: Registry request: name=Core Worker 41;pid=41
+[1735013564] Successfully launched command file worker with pid 48
+[1735013883] Caught SIGTERM, shutting down...
+[1735013883] Successfully shutdown... (PID=25)
+[1735018861] Nagios 4.5.7 starting... (PID=19)
+[1735018861] Local time is Tue Dec 24 05:41:01 UTC 2024
+[1735018861] LOG VERSION: 2.0
+[1735018861] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1735018861] qh: core query handler registered
+[1735018861] qh: echo service query handler registered
+[1735018861] qh: help for the query handler registered
+[1735018861] wproc: Successfully registered manager as @wproc with query handler
+[1735018861] wproc: Registry request: name=Core Worker 31;pid=31
+[1735018861] wproc: Registry request: name=Core Worker 30;pid=30
+[1735018861] wproc: Registry request: name=Core Worker 35;pid=35
+[1735018861] wproc: Registry request: name=Core Worker 34;pid=34
+[1735018861] wproc: Registry request: name=Core Worker 33;pid=33
+[1735018861] wproc: Registry request: name=Core Worker 32;pid=32
+[1735018861] Successfully launched command file worker with pid 38
+[1735019168] Caught SIGTERM, shutting down...
+[1735019168] Successfully shutdown... (PID=19)
+[1735019253] Nagios 4.5.7 starting... (PID=22)
+[1735019253] Local time is Tue Dec 24 05:47:33 UTC 2024
+[1735019253] LOG VERSION: 2.0
+[1735019253] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1735019253] qh: core query handler registered
+[1735019253] qh: echo service query handler registered
+[1735019253] qh: help for the query handler registered
+[1735019253] wproc: Successfully registered manager as @wproc with query handler
+[1735019253] wproc: Registry request: name=Core Worker 41;pid=41
+[1735019253] wproc: Registry request: name=Core Worker 40;pid=40
+[1735019253] wproc: Registry request: name=Core Worker 45;pid=45
+[1735019253] wproc: Registry request: name=Core Worker 44;pid=44
+[1735019253] wproc: Registry request: name=Core Worker 42;pid=42
+[1735019253] wproc: Registry request: name=Core Worker 43;pid=43
+[1735019253] Successfully launched command file worker with pid 46
+[1735019356] Caught SIGTERM, shutting down...
+[1735019356] Successfully shutdown... (PID=22)
+[1735019371] Nagios 4.5.7 starting... (PID=22)
+[1735019371] Local time is Tue Dec 24 05:49:31 UTC 2024
+[1735019371] LOG VERSION: 2.0
+[1735019371] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1735019371] qh: core query handler registered
+[1735019371] qh: echo service query handler registered
+[1735019371] qh: help for the query handler registered
+[1735019371] wproc: Successfully registered manager as @wproc with query handler
+[1735019371] wproc: Registry request: name=Core Worker 32;pid=32
+[1735019371] wproc: Registry request: name=Core Worker 33;pid=33
+[1735019371] wproc: Registry request: name=Core Worker 36;pid=36
+[1735019371] wproc: Registry request: name=Core Worker 34;pid=34
+[1735019371] wproc: Registry request: name=Core Worker 35;pid=35
+[1735019371] wproc: Registry request: name=Core Worker 37;pid=37
+[1735019371] Successfully launched command file worker with pid 43
+[1735019879] Caught SIGTERM, shutting down...
+[1735019880] Successfully shutdown... (PID=22)
+[1735019961] Nagios 4.5.7 starting... (PID=19)
+[1735019961] Local time is Tue Dec 24 05:59:21 UTC 2024
+[1735019961] LOG VERSION: 2.0
+[1735019961] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1735019961] qh: core query handler registered
+[1735019961] qh: echo service query handler registered
+[1735019961] qh: help for the query handler registered
+[1735019961] wproc: Successfully registered manager as @wproc with query handler
+[1735019961] wproc: Registry request: name=Core Worker 41;pid=41
+[1735019961] wproc: Registry request: name=Core Worker 40;pid=40
+[1735019961] wproc: Registry request: name=Core Worker 42;pid=42
+[1735019961] wproc: Registry request: name=Core Worker 43;pid=43
+[1735019961] wproc: Registry request: name=Core Worker 44;pid=44
+[1735019961] wproc: Registry request: name=Core Worker 45;pid=45
+[1735019962] Successfully launched command file worker with pid 46
+[1735021461] Caught SIGTERM, shutting down...
+[1735021461] Successfully shutdown... (PID=19)
+[1735021499] Nagios 4.5.7 starting... (PID=22)
+[1735021499] Local time is Tue Dec 24 06:24:59 UTC 2024
+[1735021499] LOG VERSION: 2.0
+[1735021499] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1735021499] qh: core query handler registered
+[1735021499] qh: echo service query handler registered
+[1735021499] qh: help for the query handler registered
+[1735021499] wproc: Successfully registered manager as @wproc with query handler
+[1735021499] wproc: Registry request: name=Core Worker 34;pid=34
+[1735021499] wproc: Registry request: name=Core Worker 33;pid=33
+[1735021499] wproc: Registry request: name=Core Worker 37;pid=37
+[1735021499] wproc: Registry request: name=Core Worker 35;pid=35
+[1735021499] wproc: Registry request: name=Core Worker 38;pid=38
+[1735021499] wproc: Registry request: name=Core Worker 36;pid=36
+[1735021499] Successfully launched command file worker with pid 44
+[1735022655] Caught SIGTERM, shutting down...
+[1735022655] Successfully shutdown... (PID=22)
+[1735022733] Nagios 4.5.7 starting... (PID=20)
+[1735022733] Local time is Tue Dec 24 06:45:33 UTC 2024
+[1735022733] LOG VERSION: 2.0
+[1735022733] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1735022733] qh: core query handler registered
+[1735022733] qh: echo service query handler registered
+[1735022733] qh: help for the query handler registered
+[1735022733] wproc: Successfully registered manager as @wproc with query handler
+[1735022733] wproc: Registry request: name=Core Worker 41;pid=41
+[1735022733] wproc: Registry request: name=Core Worker 40;pid=40
+[1735022733] wproc: Registry request: name=Core Worker 44;pid=44
+[1735022733] wproc: Registry request: name=Core Worker 43;pid=43
+[1735022733] wproc: Registry request: name=Core Worker 45;pid=45
+[1735022733] wproc: Registry request: name=Core Worker 42;pid=42
+[1735022733] Successfully launched command file worker with pid 46
+[1735023220] Caught SIGTERM, shutting down...
+[1735023220] Successfully shutdown... (PID=20)
+[1735023276] Nagios 4.5.7 starting... (PID=22)
+[1735023276] Local time is Tue Dec 24 06:54:36 UTC 2024
+[1735023276] LOG VERSION: 2.0
+[1735023276] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1735023276] qh: core query handler registered
+[1735023276] qh: echo service query handler registered
+[1735023276] qh: help for the query handler registered
+[1735023276] wproc: Successfully registered manager as @wproc with query handler
+[1735023276] wproc: Registry request: name=Core Worker 39;pid=39
+[1735023276] wproc: Registry request: name=Core Worker 40;pid=40
+[1735023276] wproc: Registry request: name=Core Worker 43;pid=43
+[1735023276] wproc: Registry request: name=Core Worker 42;pid=42
+[1735023276] wproc: Registry request: name=Core Worker 44;pid=44
+[1735023276] wproc: Registry request: name=Core Worker 41;pid=41
+[1735023276] Successfully launched command file worker with pid 47

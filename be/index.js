@@ -417,6 +417,37 @@ app.delete("/api/saved-plans/:id", authenticateToken, async (req, res) => {
   }
 });
 
+// get trip by id
+app.get("/api/trips/:id", authenticateToken, async (req, res) => {
+  try {
+    const userId = await req.user.userId;
+    const { id } = req.params;
+
+    const result = await pool.query(
+      "SELECT * FROM triptix_db.trip WHERE id = $1 AND user_id = $2",
+      [id, userId]
+    );
+
+    if (result.rows.length === 0) {
+      return res.status(404).json({
+        success: false,
+        error: "Trip not found",
+      });
+    }
+
+    res.json({
+      success: true,
+      plan: JSON.parse(result.rows[0].generate_result),
+    });
+  } catch (err) {
+    console.error("Error fetching trip:", err);
+    res.status(500).json({
+      success: false,
+      error: "Failed to fetch trip",
+    });
+  }
+});
+
 // use the location name to get pics from google maps api
 const googleMapsApiKey = process.env.GOOGLE_MAP_KEY;
 
