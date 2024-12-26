@@ -59,10 +59,9 @@ const SearchBar = () => {
       location: selectedLocation.location,
     }));
 
-    setIsLoading(true);
-
     try {
       router.push("/pick-date");
+      setIsLoading(true);
     } catch (error) {
       console.error("Error navigating to the next step:", error);
       toast({

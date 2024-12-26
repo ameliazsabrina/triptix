@@ -25,22 +25,8 @@ import {
 } from "lucide-react";
 import APIService from "@/route";
 
-function ExistingTrips({ savedTrips, handleDelete }) {
+function ExistingTrips({ savedTrips, handleDelete, handleView }) {
   const router = useRouter();
-
-  const handleView = async (tripId) => {
-    try {
-      const response = await APIService.getTrip(tripId);
-      if (response.data.success) {
-        // Store the plan data in sessionStorage
-        sessionStorage.setItem("planData", JSON.stringify(response.data));
-        // Redirect to generate-result page
-        router.push("/generate-result");
-      }
-    } catch (error) {
-      console.error("Error viewing trip:", error);
-    }
-  };
 
   return (
     <Card>
@@ -86,7 +72,7 @@ function ExistingTrips({ savedTrips, handleDelete }) {
                     <Button
                       variant="secondary"
                       size="sm"
-                      onClick={() => handleView(trip.id)}
+                      onClick={async () => await handleView(trip.id)}
                     >
                       View
                     </Button>

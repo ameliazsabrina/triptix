@@ -4,12 +4,9 @@ import {
   MapPin,
   Calendar,
   DollarSign,
-  Users,
-  Sun,
-  Cloud,
-  TreePine,
-  History,
   Star,
+  History,
+  Cloud,
   Footprints,
   ChevronLeft,
   ChevronRight,
@@ -21,101 +18,41 @@ import { useRouter } from "next/navigation";
 import Header from "@/components/header";
 import APIService from "@/route";
 
-const ImageSlider = () => {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const images = [
-    "/phuket.jpg",
-    "/phuket2.jpg",
-    "/phuket3.jpg",
-    "/phuket4.jpg",
-  ];
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentImageIndex((prevIndex) =>
-        prevIndex === images.length - 1 ? 0 : prevIndex + 1
-      );
-    }, 2000); // 2 seconds delay
-
-    return () => clearInterval(timer);
-  }, []);
-
-  const nextSlide = () => {
-    setCurrentImageIndex((prevIndex) =>
-      prevIndex === images.length - 1 ? 0 : prevIndex + 1
-    );
-  };
-
-  const prevSlide = () => {
-    setCurrentImageIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
-    );
-  };
-
-  return (
-    <div className="relative h-96 w-full">
-      <div className="absolute inset-0 flex items-center justify-center">
-        <img
-          src={images[currentImageIndex]}
-          alt={`Location ${currentImageIndex + 1}`}
-          className="w-[650px] h-full object-cover rounded-lg transition-opacity duration-500"
-        />
-      </div>
-
-      <button
-        onClick={prevSlide}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black/30 text-white p-2 rounded-full hover:bg-black/50 transition-colors"
-      >
-        <ChevronLeft className="h-6 w-6" />
-      </button>
-
-      <button
-        onClick={nextSlide}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black/30 text-white p-2 rounded-full hover:bg-black/50 transition-colors"
-      >
-        <ChevronRight className="h-6 w-6" />
-      </button>
-
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2">
-        {images.map((_, index) => (
-          <button
-            key={index}
-            onClick={() => setCurrentImageIndex(index)}
-            className={`w-2 h-2 rounded-full transition-colors ${
-              index === currentImageIndex ? "bg-white" : "bg-white/50"
-            }`}
-          />
-        ))}
-      </div>
-    </div>
-  );
-};
-
-const TripGenerationResult = () => {
+const ViewTrip = ({ params }) => {
   const router = useRouter();
-  const [planData, setPlanData] = useState(null);
+  const [tripData, setTripData] = useState(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const storedData = sessionStorage.getItem("planData");
-    if (storedData) {
-      setPlanData(JSON.parse(storedData).plan);
-    }
-  }, []);
+    const fetchTripData = async () => {
+      try {
+        const response = await APIService.getTrip(params.id);
+        setTripData(response.data.plan);
+        setLoading(false);
+      } catch (error) {
+        console.error("Error fetching trip:", error);
+        setLoading(false);
+      }
+    };
 
-  if (!planData) {
-    return <div>Loading...</div>;
+    fetchTripData();
+  }, [params.id]);
+
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center min-h-screen">
+        <p>Loading...</p>
+      </div>
+    );
   }
 
-  const handleSaveTrip = async () => {
-    try {
-      const response = await APIService.savePlans(planData.id);
-      if (response.data.success) {
-        router.push("/dashboard");
-      }
-    } catch (error) {
-      console.error(error);
-    }
-  };
+  if (!tripData) {
+    return (
+      <div className="flex justify-center items-center min-h-screen">
+        <p>Trip not found</p>
+      </div>
+    );
+  }
 
   return (
     <>
@@ -124,18 +61,13 @@ const TripGenerationResult = () => {
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold mb-2 flex justify-center items-center gap-2">
             <MapPin className="h-8 w-8 text-primary" />
-            {planData.location}
+            {tripData.location}
           </h1>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             A wonderful destination with unique experiences to explore.
           </p>
         </div>
 
-        <div className="mb-8">
-          <ImageSlider />
-        </div>
-
-        {/* Rest of the component remains the same */}
         {/* Destination Highlights */}
         <div className="mb-8">
           <h2 className="text-2xl font-bold mb-4 flex items-center gap-2">
@@ -143,7 +75,7 @@ const TripGenerationResult = () => {
             Destination Highlights
           </h2>
           <div className="flex flex-wrap gap-2">
-            {planData.highlights.map((highlight, index) => (
+            {tripData.highlights.map((highlight, index) => (
               <Badge key={index} variant="secondary">
                 {highlight}
               </Badge>
@@ -163,10 +95,10 @@ const TripGenerationResult = () => {
             <CardContent>
               <div className="flex justify-between">
                 <div>
-                  <p className="font-bold">{planData.travel_dates.duration}</p>
+                  <p className="font-bold">{tripData.travel_dates.duration}</p>
                   <p className="text-sm text-muted-foreground">
-                    {planData.travel_dates.start_date} -{" "}
-                    {planData.travel_dates.end_date}
+                    {tripData.travel_dates.start_date} -{" "}
+                    {tripData.travel_dates.end_date}
                   </p>
                 </div>
               </div>
@@ -181,7 +113,7 @@ const TripGenerationResult = () => {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-2xl font-bold">{planData.budget}</p>
+              <p className="text-2xl font-bold">{tripData.budget}</p>
               <p className="text-sm text-muted-foreground">Total Trip Budget</p>
             </CardContent>
           </Card>
@@ -194,7 +126,7 @@ const TripGenerationResult = () => {
             Recommended Activities
           </h2>
           <div className="grid md:grid-cols-3 gap-4">
-            {planData.recommended_activities.map((activity, index) => (
+            {tripData.recommended_activities.map((activity, index) => (
               <Card key={index}>
                 <CardHeader>
                   <CardTitle className="text-lg flex items-center gap-2">
@@ -223,7 +155,7 @@ const TripGenerationResult = () => {
             Travel Tips
           </h2>
           <ul className="space-y-2 pl-4 list-disc">
-            {planData.travel_tips.map((tip, index) => (
+            {tripData.travel_tips.map((tip, index) => (
               <li key={index} className="text-muted-foreground">
                 {tip}
               </li>
@@ -231,18 +163,14 @@ const TripGenerationResult = () => {
           </ul>
         </div>
 
-        <div className="mt-8 flex justify-center space-x-4">
-          <Button
-            variant="outline"
-            onClick={() => router.push("/search-place")}
-          >
-            Regenerate
+        <div className="mt-8 flex justify-center">
+          <Button variant="outline" onClick={() => router.push("/dashboard")}>
+            Back to Dashboard
           </Button>
-          <Button onClick={handleSaveTrip}>Save Trip</Button>
         </div>
       </div>
     </>
   );
 };
 
-export default TripGenerationResult;
+export default ViewTrip;

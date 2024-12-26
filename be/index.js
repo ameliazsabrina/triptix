@@ -35,7 +35,6 @@ pool.connect((err, client, release) => {
   });
 });
 
-// Middleware
 app.use(cors());
 app.use(bodyParser.json());
 

@@ -2,8 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Skeleton } from "@/components/ui/skeleton";
+import { Card, CardContent } from "@/components/ui/card";
 import { LayoutDashboard, MapPinIcon, PlaneTakeoff } from "lucide-react";
 
 import ExistingTrips from "./ExistingTrips";
@@ -12,32 +11,9 @@ import APIService from "@/route";
 
 const Dashboard = () => {
   const [isLoading, setIsLoading] = useState(true);
+  const [trips, setTrips] = useState([]);
   const router = useRouter();
 
-  const savedTrips = [
-    {
-      id: 1,
-      location: "Bali, Indonesia",
-      startDate: "2024-01-15",
-      endDate: "2024-01-20",
-      budget: 2500,
-      travelers: 2,
-      status: "Generated",
-    },
-    {
-      id: 2,
-      location: "Tokyo, Japan",
-      startDate: "2024-02-10",
-      endDate: "2024-02-17",
-      budget: 3500,
-      travelers: 3,
-      status: "Generated",
-    },
-  ];
-
-  const [trips, setTrips] = useState([]);
-
-  // Mock fetching trips
   const fetchTrips = async () => {
     try {
       setIsLoading(true);
@@ -67,6 +43,33 @@ const Dashboard = () => {
     }
   };
 
+  const handleView = async (id) => {
+    try {
+      await fetchTrips();
+      await APIService.getTrip(id);
+      router.push(`/view-trip/${id}`);
+    } catch (error) {
+      console.error("Error viewing trip:", error);
+    }
+  };
+
+  const NoTripsCard = () => (
+    <div className="flex justify-center items-center w-full min-h-[60vh]">
+      <Card className="w-full max-w-md opacity-80">
+        <CardContent className="flex flex-col items-center justify-center py-16">
+          <div className="rounded-full bg-gray-100 p-4 mb-4">
+            <MapPinIcon className="w-8 h-8 text-gray-400" />
+          </div>
+          <h3 className="font-semibold text-lg mb-2">No trips found</h3>
+          <p className="text-md text-gray-500 text-center mb-6">
+            You haven&apos;t generated any trips yet. Start planning your next
+            adventure!
+          </p>
+        </CardContent>
+      </Card>
+    </div>
+  );
+
   return (
     <>
       <Header />
@@ -82,41 +85,15 @@ const Dashboard = () => {
 
         <div className="container mx-auto px-4">
           {isLoading ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              (
-              <Card className="w-full">
-                <CardContent className="flex flex-col items-center justify-center py-16">
-                  <div className="rounded-full bg-gray-100 p-4 mb-4">
-                    <MapPinIcon className="w-8 h-8 text-gray-400" />
-                  </div>
-                  <h3 className="font-semibold text-lg mb-2">No trips found</h3>
-                  <p className="text-sm text-gray-500 text-center mb-6">
-                    You haven&apos;t generated any trips yet. Start planning
-                    your next adventure!
-                  </p>
-                </CardContent>
-              </Card>
-              );
-            </div>
+            <NoTripsCard />
           ) : trips.length > 0 ? (
-            <ExistingTrips savedTrips={trips} handleDelete={handleDelete} />
+            <ExistingTrips
+              savedTrips={trips}
+              handleDelete={handleDelete}
+              handleView={handleView}
+            />
           ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              (
-              <Card className="w-full opacity-80/ ">
-                <CardContent className="flex flex-col items-center justify-center py-16">
-                  <div className="rounded-full bg-gray-100 p-4 mb-4">
-                    <MapPinIcon className="w-8 h-8 text-gray-400" />
-                  </div>
-                  <h3 className="font-semibold text-lg mb-2">No trips found</h3>
-                  <p className="text-md text-gray-500 text-center mb-6">
-                    You haven&apos;t generated any trips yet. Start planning
-                    your next adventure!
-                  </p>
-                </CardContent>
-              </Card>
-              );
-            </div>
+            <NoTripsCard />
           )}
         </div>
       </div>

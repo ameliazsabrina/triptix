@@ -37,8 +37,8 @@ const BudgetRangePicker = () => {
 
     const numberValue = parseInt(numericValue, 10);
 
-    if (numberValue > 50000000) {
-      setError("Maximum budget is IDR 50,000,000");
+    if (numberValue > 200000000) {
+      setError("Maximum budget is IDR 200,000,000");
       return;
     }
 
@@ -102,7 +102,7 @@ const BudgetRangePicker = () => {
         {error && <div className="text-red-500 text-sm">{error}</div>}
 
         <div className="text-sm text-gray-500">
-          Maximum budget: IDR 50,000,000
+          Maximum budget: IDR 200,000,000
         </div>
       </CardContent>
     </Card>
