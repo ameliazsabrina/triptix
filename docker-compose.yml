@@ -93,8 +93,8 @@ services:
       - NAGIOSADMIN_USER=nagiosadmin
       - NAGIOSADMIN_PASS=nagios123
     volumes:
-      - ./nagios/etc:/opt/nagios/etc
-      - ./nagios/var:/opt/nagios/var
+      - ./nagios_etc:/opt/nagios/etc
+      - ./nagios_var:/opt/nagios/var
       - ./nagios/custom-plugins:/opt/Custom-Nagios-Plugins
     depends_on:
       - frontend
@@ -102,6 +102,7 @@ services:
       - db
     networks:
       - app_network
+    privileged: true
 
 networks:
   app_network:

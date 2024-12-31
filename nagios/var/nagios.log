@@ -3859,3 +3859,1973 @@
 [1735200875] LOG VERSION: 2.0
 [1735200875] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
 [1735200875] Error: Failed to initialize query handler. Aborting
+[1735611914] Nagios 4.5.7 starting... (PID=20)
+[1735611914] Local time is Tue Dec 31 02:25:14 UTC 2024
+[1735611914] LOG VERSION: 2.0
+[1735611914] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611914] Error: Failed to initialize query handler. Aborting
+[1735611914] Nagios 4.5.7 starting... (PID=33)
+[1735611914] Local time is Tue Dec 31 02:25:14 UTC 2024
+[1735611914] LOG VERSION: 2.0
+[1735611914] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611914] Error: Failed to initialize query handler. Aborting
+[1735611915] Nagios 4.5.7 starting... (PID=40)
+[1735611916] Local time is Tue Dec 31 02:25:16 UTC 2024
+[1735611916] LOG VERSION: 2.0
+[1735611916] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611916] Error: Failed to initialize query handler. Aborting
+[1735611917] Nagios 4.5.7 starting... (PID=47)
+[1735611917] Local time is Tue Dec 31 02:25:17 UTC 2024
+[1735611917] LOG VERSION: 2.0
+[1735611917] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611917] Error: Failed to initialize query handler. Aborting
+[1735611918] Nagios 4.5.7 starting... (PID=57)
+[1735611918] Local time is Tue Dec 31 02:25:18 UTC 2024
+[1735611918] LOG VERSION: 2.0
+[1735611918] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611918] Error: Failed to initialize query handler. Aborting
+[1735611919] Nagios 4.5.7 starting... (PID=62)
+[1735611919] Local time is Tue Dec 31 02:25:19 UTC 2024
+[1735611919] LOG VERSION: 2.0
+[1735611919] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611919] Error: Failed to initialize query handler. Aborting
+[1735611920] Nagios 4.5.7 starting... (PID=67)
+[1735611920] Local time is Tue Dec 31 02:25:20 UTC 2024
+[1735611921] LOG VERSION: 2.0
+[1735611921] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611921] Error: Failed to initialize query handler. Aborting
+[1735611922] Nagios 4.5.7 starting... (PID=73)
+[1735611922] Local time is Tue Dec 31 02:25:22 UTC 2024
+[1735611922] LOG VERSION: 2.0
+[1735611922] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611922] Error: Failed to initialize query handler. Aborting
+[1735611923] Nagios 4.5.7 starting... (PID=78)
+[1735611923] Local time is Tue Dec 31 02:25:23 UTC 2024
+[1735611923] LOG VERSION: 2.0
+[1735611923] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611923] Error: Failed to initialize query handler. Aborting
+[1735611924] Nagios 4.5.7 starting... (PID=83)
+[1735611924] Local time is Tue Dec 31 02:25:24 UTC 2024
+[1735611924] LOG VERSION: 2.0
+[1735611924] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611924] Error: Failed to initialize query handler. Aborting
+[1735611925] Nagios 4.5.7 starting... (PID=88)
+[1735611925] Local time is Tue Dec 31 02:25:25 UTC 2024
+[1735611925] LOG VERSION: 2.0
+[1735611925] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611925] Error: Failed to initialize query handler. Aborting
+[1735611926] Nagios 4.5.7 starting... (PID=93)
+[1735611926] Local time is Tue Dec 31 02:25:26 UTC 2024
+[1735611926] LOG VERSION: 2.0
+[1735611926] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611926] Error: Failed to initialize query handler. Aborting
+[1735611927] Nagios 4.5.7 starting... (PID=98)
+[1735611927] Local time is Tue Dec 31 02:25:27 UTC 2024
+[1735611927] LOG VERSION: 2.0
+[1735611927] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611927] Error: Failed to initialize query handler. Aborting
+[1735611928] Nagios 4.5.7 starting... (PID=103)
+[1735611928] Local time is Tue Dec 31 02:25:28 UTC 2024
+[1735611928] LOG VERSION: 2.0
+[1735611928] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611928] Error: Failed to initialize query handler. Aborting
+[1735611929] Nagios 4.5.7 starting... (PID=108)
+[1735611929] Local time is Tue Dec 31 02:25:29 UTC 2024
+[1735611929] LOG VERSION: 2.0
+[1735611929] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611929] Error: Failed to initialize query handler. Aborting
+[1735611930] Nagios 4.5.7 starting... (PID=113)
+[1735611930] Local time is Tue Dec 31 02:25:30 UTC 2024
+[1735611930] LOG VERSION: 2.0
+[1735611930] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611930] Error: Failed to initialize query handler. Aborting
+[1735611931] Nagios 4.5.7 starting... (PID=118)
+[1735611931] Local time is Tue Dec 31 02:25:31 UTC 2024
+[1735611931] LOG VERSION: 2.0
+[1735611931] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611931] Error: Failed to initialize query handler. Aborting
+[1735611932] Nagios 4.5.7 starting... (PID=123)
+[1735611932] Local time is Tue Dec 31 02:25:32 UTC 2024
+[1735611932] LOG VERSION: 2.0
+[1735611932] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611932] Error: Failed to initialize query handler. Aborting
+[1735611933] Nagios 4.5.7 starting... (PID=128)
+[1735611933] Local time is Tue Dec 31 02:25:33 UTC 2024
+[1735611933] LOG VERSION: 2.0
+[1735611933] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611933] Error: Failed to initialize query handler. Aborting
+[1735611934] Nagios 4.5.7 starting... (PID=133)
+[1735611934] Local time is Tue Dec 31 02:25:34 UTC 2024
+[1735611934] LOG VERSION: 2.0
+[1735611934] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611934] Error: Failed to initialize query handler. Aborting
+[1735611935] Nagios 4.5.7 starting... (PID=138)
+[1735611935] Local time is Tue Dec 31 02:25:35 UTC 2024
+[1735611935] LOG VERSION: 2.0
+[1735611935] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611935] Error: Failed to initialize query handler. Aborting
+[1735611936] Nagios 4.5.7 starting... (PID=143)
+[1735611936] Local time is Tue Dec 31 02:25:36 UTC 2024
+[1735611936] LOG VERSION: 2.0
+[1735611936] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611936] Error: Failed to initialize query handler. Aborting
+[1735611937] Nagios 4.5.7 starting... (PID=148)
+[1735611937] Local time is Tue Dec 31 02:25:37 UTC 2024
+[1735611937] LOG VERSION: 2.0
+[1735611937] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611937] Error: Failed to initialize query handler. Aborting
+[1735611938] Nagios 4.5.7 starting... (PID=153)
+[1735611938] Local time is Tue Dec 31 02:25:38 UTC 2024
+[1735611938] LOG VERSION: 2.0
+[1735611938] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611938] Error: Failed to initialize query handler. Aborting
+[1735611939] Nagios 4.5.7 starting... (PID=158)
+[1735611939] Local time is Tue Dec 31 02:25:39 UTC 2024
+[1735611939] LOG VERSION: 2.0
+[1735611939] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611939] Error: Failed to initialize query handler. Aborting
+[1735611940] Nagios 4.5.7 starting... (PID=163)
+[1735611940] Local time is Tue Dec 31 02:25:40 UTC 2024
+[1735611940] LOG VERSION: 2.0
+[1735611940] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611940] Error: Failed to initialize query handler. Aborting
+[1735611941] Nagios 4.5.7 starting... (PID=168)
+[1735611941] Local time is Tue Dec 31 02:25:41 UTC 2024
+[1735611941] LOG VERSION: 2.0
+[1735611941] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611941] Error: Failed to initialize query handler. Aborting
+[1735611942] Nagios 4.5.7 starting... (PID=173)
+[1735611942] Local time is Tue Dec 31 02:25:42 UTC 2024
+[1735611942] LOG VERSION: 2.0
+[1735611942] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611942] Error: Failed to initialize query handler. Aborting
+[1735611943] Nagios 4.5.7 starting... (PID=180)
+[1735611943] Local time is Tue Dec 31 02:25:43 UTC 2024
+[1735611943] LOG VERSION: 2.0
+[1735611943] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611943] Error: Failed to initialize query handler. Aborting
+[1735611945] Nagios 4.5.7 starting... (PID=185)
+[1735611945] Local time is Tue Dec 31 02:25:45 UTC 2024
+[1735611945] LOG VERSION: 2.0
+[1735611945] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611945] Error: Failed to initialize query handler. Aborting
+[1735611946] Nagios 4.5.7 starting... (PID=190)
+[1735611946] Local time is Tue Dec 31 02:25:46 UTC 2024
+[1735611946] LOG VERSION: 2.0
+[1735611946] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611946] Error: Failed to initialize query handler. Aborting
+[1735611947] Nagios 4.5.7 starting... (PID=196)
+[1735611947] Local time is Tue Dec 31 02:25:47 UTC 2024
+[1735611947] LOG VERSION: 2.0
+[1735611947] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611947] Error: Failed to initialize query handler. Aborting
+[1735611948] Nagios 4.5.7 starting... (PID=201)
+[1735611948] Local time is Tue Dec 31 02:25:48 UTC 2024
+[1735611948] LOG VERSION: 2.0
+[1735611948] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611948] Error: Failed to initialize query handler. Aborting
+[1735611949] Nagios 4.5.7 starting... (PID=206)
+[1735611949] Local time is Tue Dec 31 02:25:49 UTC 2024
+[1735611949] LOG VERSION: 2.0
+[1735611949] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611949] Error: Failed to initialize query handler. Aborting
+[1735611950] Nagios 4.5.7 starting... (PID=211)
+[1735611950] Local time is Tue Dec 31 02:25:50 UTC 2024
+[1735611950] LOG VERSION: 2.0
+[1735611950] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611950] Error: Failed to initialize query handler. Aborting
+[1735611951] Nagios 4.5.7 starting... (PID=216)
+[1735611951] Local time is Tue Dec 31 02:25:51 UTC 2024
+[1735611951] LOG VERSION: 2.0
+[1735611951] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611951] Error: Failed to initialize query handler. Aborting
+[1735611952] Nagios 4.5.7 starting... (PID=221)
+[1735611952] Local time is Tue Dec 31 02:25:52 UTC 2024
+[1735611952] LOG VERSION: 2.0
+[1735611952] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611952] Error: Failed to initialize query handler. Aborting
+[1735611953] Nagios 4.5.7 starting... (PID=226)
+[1735611953] Local time is Tue Dec 31 02:25:53 UTC 2024
+[1735611953] LOG VERSION: 2.0
+[1735611953] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611953] Error: Failed to initialize query handler. Aborting
+[1735611954] Nagios 4.5.7 starting... (PID=231)
+[1735611954] Local time is Tue Dec 31 02:25:54 UTC 2024
+[1735611954] LOG VERSION: 2.0
+[1735611954] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611954] Error: Failed to initialize query handler. Aborting
+[1735611955] Nagios 4.5.7 starting... (PID=236)
+[1735611955] Local time is Tue Dec 31 02:25:55 UTC 2024
+[1735611955] LOG VERSION: 2.0
+[1735611955] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611955] Error: Failed to initialize query handler. Aborting
+[1735611956] Nagios 4.5.7 starting... (PID=241)
+[1735611956] Local time is Tue Dec 31 02:25:56 UTC 2024
+[1735611956] LOG VERSION: 2.0
+[1735611956] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611956] Error: Failed to initialize query handler. Aborting
+[1735611957] Nagios 4.5.7 starting... (PID=246)
+[1735611957] Local time is Tue Dec 31 02:25:57 UTC 2024
+[1735611957] LOG VERSION: 2.0
+[1735611957] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611957] Error: Failed to initialize query handler. Aborting
+[1735611958] Nagios 4.5.7 starting... (PID=251)
+[1735611958] Local time is Tue Dec 31 02:25:58 UTC 2024
+[1735611958] LOG VERSION: 2.0
+[1735611958] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611958] Error: Failed to initialize query handler. Aborting
+[1735611959] Nagios 4.5.7 starting... (PID=256)
+[1735611959] Local time is Tue Dec 31 02:25:59 UTC 2024
+[1735611959] LOG VERSION: 2.0
+[1735611959] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611959] Error: Failed to initialize query handler. Aborting
+[1735611960] Nagios 4.5.7 starting... (PID=261)
+[1735611960] Local time is Tue Dec 31 02:26:00 UTC 2024
+[1735611960] LOG VERSION: 2.0
+[1735611960] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611960] Error: Failed to initialize query handler. Aborting
+[1735611962] Nagios 4.5.7 starting... (PID=266)
+[1735611962] Local time is Tue Dec 31 02:26:02 UTC 2024
+[1735611962] LOG VERSION: 2.0
+[1735611962] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611962] Error: Failed to initialize query handler. Aborting
+[1735611963] Nagios 4.5.7 starting... (PID=271)
+[1735611963] Local time is Tue Dec 31 02:26:03 UTC 2024
+[1735611963] LOG VERSION: 2.0
+[1735611963] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611963] Error: Failed to initialize query handler. Aborting
+[1735611964] Nagios 4.5.7 starting... (PID=276)
+[1735611964] Local time is Tue Dec 31 02:26:04 UTC 2024
+[1735611964] LOG VERSION: 2.0
+[1735611964] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611964] Error: Failed to initialize query handler. Aborting
+[1735611965] Nagios 4.5.7 starting... (PID=281)
+[1735611965] Local time is Tue Dec 31 02:26:05 UTC 2024
+[1735611965] LOG VERSION: 2.0
+[1735611965] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611965] Error: Failed to initialize query handler. Aborting
+[1735611966] Nagios 4.5.7 starting... (PID=288)
+[1735611966] Local time is Tue Dec 31 02:26:06 UTC 2024
+[1735611966] LOG VERSION: 2.0
+[1735611966] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611966] Error: Failed to initialize query handler. Aborting
+[1735611967] Nagios 4.5.7 starting... (PID=293)
+[1735611967] Local time is Tue Dec 31 02:26:07 UTC 2024
+[1735611967] LOG VERSION: 2.0
+[1735611967] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611967] Error: Failed to initialize query handler. Aborting
+[1735611968] Nagios 4.5.7 starting... (PID=298)
+[1735611968] Local time is Tue Dec 31 02:26:08 UTC 2024
+[1735611968] LOG VERSION: 2.0
+[1735611968] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611968] Error: Failed to initialize query handler. Aborting
+[1735611969] Nagios 4.5.7 starting... (PID=303)
+[1735611969] Local time is Tue Dec 31 02:26:09 UTC 2024
+[1735611969] LOG VERSION: 2.0
+[1735611969] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611969] Error: Failed to initialize query handler. Aborting
+[1735611970] Nagios 4.5.7 starting... (PID=308)
+[1735611970] Local time is Tue Dec 31 02:26:10 UTC 2024
+[1735611970] LOG VERSION: 2.0
+[1735611970] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611970] Error: Failed to initialize query handler. Aborting
+[1735611971] Nagios 4.5.7 starting... (PID=313)
+[1735611971] Local time is Tue Dec 31 02:26:11 UTC 2024
+[1735611971] LOG VERSION: 2.0
+[1735611971] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611971] Error: Failed to initialize query handler. Aborting
+[1735611972] Nagios 4.5.7 starting... (PID=318)
+[1735611972] Local time is Tue Dec 31 02:26:12 UTC 2024
+[1735611972] LOG VERSION: 2.0
+[1735611972] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611972] Error: Failed to initialize query handler. Aborting
+[1735611973] Nagios 4.5.7 starting... (PID=323)
+[1735611973] Local time is Tue Dec 31 02:26:13 UTC 2024
+[1735611973] LOG VERSION: 2.0
+[1735611973] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611973] Error: Failed to initialize query handler. Aborting
+[1735611974] Nagios 4.5.7 starting... (PID=328)
+[1735611974] Local time is Tue Dec 31 02:26:14 UTC 2024
+[1735611974] LOG VERSION: 2.0
+[1735611974] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611974] Error: Failed to initialize query handler. Aborting
+[1735611975] Nagios 4.5.7 starting... (PID=333)
+[1735611975] Local time is Tue Dec 31 02:26:15 UTC 2024
+[1735611975] LOG VERSION: 2.0
+[1735611975] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611975] Error: Failed to initialize query handler. Aborting
+[1735611976] Nagios 4.5.7 starting... (PID=339)
+[1735611976] Local time is Tue Dec 31 02:26:16 UTC 2024
+[1735611976] LOG VERSION: 2.0
+[1735611976] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611976] Error: Failed to initialize query handler. Aborting
+[1735611977] Nagios 4.5.7 starting... (PID=344)
+[1735611977] Local time is Tue Dec 31 02:26:17 UTC 2024
+[1735611977] LOG VERSION: 2.0
+[1735611977] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611977] Error: Failed to initialize query handler. Aborting
+[1735611978] Nagios 4.5.7 starting... (PID=349)
+[1735611978] Local time is Tue Dec 31 02:26:18 UTC 2024
+[1735611978] LOG VERSION: 2.0
+[1735611978] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611978] Error: Failed to initialize query handler. Aborting
+[1735611979] Nagios 4.5.7 starting... (PID=354)
+[1735611979] Local time is Tue Dec 31 02:26:19 UTC 2024
+[1735611979] LOG VERSION: 2.0
+[1735611979] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611979] Error: Failed to initialize query handler. Aborting
+[1735611980] Nagios 4.5.7 starting... (PID=359)
+[1735611980] Local time is Tue Dec 31 02:26:20 UTC 2024
+[1735611980] LOG VERSION: 2.0
+[1735611980] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611980] Error: Failed to initialize query handler. Aborting
+[1735611981] Nagios 4.5.7 starting... (PID=364)
+[1735611981] Local time is Tue Dec 31 02:26:21 UTC 2024
+[1735611981] LOG VERSION: 2.0
+[1735611981] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611981] Error: Failed to initialize query handler. Aborting
+[1735611982] Nagios 4.5.7 starting... (PID=369)
+[1735611982] Local time is Tue Dec 31 02:26:22 UTC 2024
+[1735611982] LOG VERSION: 2.0
+[1735611982] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611982] Error: Failed to initialize query handler. Aborting
+[1735611983] Nagios 4.5.7 starting... (PID=374)
+[1735611983] Local time is Tue Dec 31 02:26:23 UTC 2024
+[1735611983] LOG VERSION: 2.0
+[1735611983] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611983] Error: Failed to initialize query handler. Aborting
+[1735611984] Nagios 4.5.7 starting... (PID=379)
+[1735611984] Local time is Tue Dec 31 02:26:24 UTC 2024
+[1735611984] LOG VERSION: 2.0
+[1735611984] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611984] Error: Failed to initialize query handler. Aborting
+[1735611985] Nagios 4.5.7 starting... (PID=384)
+[1735611985] Local time is Tue Dec 31 02:26:25 UTC 2024
+[1735611985] LOG VERSION: 2.0
+[1735611985] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611985] Error: Failed to initialize query handler. Aborting
+[1735611987] Nagios 4.5.7 starting... (PID=389)
+[1735611987] Local time is Tue Dec 31 02:26:27 UTC 2024
+[1735611987] LOG VERSION: 2.0
+[1735611987] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611987] Error: Failed to initialize query handler. Aborting
+[1735611988] Nagios 4.5.7 starting... (PID=394)
+[1735611988] Local time is Tue Dec 31 02:26:28 UTC 2024
+[1735611988] LOG VERSION: 2.0
+[1735611988] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611988] Error: Failed to initialize query handler. Aborting
+[1735611989] Nagios 4.5.7 starting... (PID=399)
+[1735611989] Local time is Tue Dec 31 02:26:29 UTC 2024
+[1735611989] LOG VERSION: 2.0
+[1735611989] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611989] Error: Failed to initialize query handler. Aborting
+[1735611990] Nagios 4.5.7 starting... (PID=404)
+[1735611990] Local time is Tue Dec 31 02:26:30 UTC 2024
+[1735611990] LOG VERSION: 2.0
+[1735611990] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611990] Error: Failed to initialize query handler. Aborting
+[1735611991] Nagios 4.5.7 starting... (PID=409)
+[1735611991] Local time is Tue Dec 31 02:26:31 UTC 2024
+[1735611991] LOG VERSION: 2.0
+[1735611991] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611991] Error: Failed to initialize query handler. Aborting
+[1735611992] Nagios 4.5.7 starting... (PID=414)
+[1735611992] Local time is Tue Dec 31 02:26:32 UTC 2024
+[1735611992] LOG VERSION: 2.0
+[1735611992] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611992] Error: Failed to initialize query handler. Aborting
+[1735611993] Nagios 4.5.7 starting... (PID=419)
+[1735611993] Local time is Tue Dec 31 02:26:33 UTC 2024
+[1735611993] LOG VERSION: 2.0
+[1735611993] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611993] Error: Failed to initialize query handler. Aborting
+[1735611994] Nagios 4.5.7 starting... (PID=424)
+[1735611994] Local time is Tue Dec 31 02:26:34 UTC 2024
+[1735611994] LOG VERSION: 2.0
+[1735611994] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611994] Error: Failed to initialize query handler. Aborting
+[1735611995] Nagios 4.5.7 starting... (PID=429)
+[1735611995] Local time is Tue Dec 31 02:26:35 UTC 2024
+[1735611995] LOG VERSION: 2.0
+[1735611995] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611995] Error: Failed to initialize query handler. Aborting
+[1735611996] Nagios 4.5.7 starting... (PID=434)
+[1735611996] Local time is Tue Dec 31 02:26:36 UTC 2024
+[1735611996] LOG VERSION: 2.0
+[1735611996] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611996] Error: Failed to initialize query handler. Aborting
+[1735611997] Nagios 4.5.7 starting... (PID=441)
+[1735611997] Local time is Tue Dec 31 02:26:37 UTC 2024
+[1735611997] LOG VERSION: 2.0
+[1735611997] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611997] Error: Failed to initialize query handler. Aborting
+[1735611998] Nagios 4.5.7 starting... (PID=446)
+[1735611998] Local time is Tue Dec 31 02:26:38 UTC 2024
+[1735611998] LOG VERSION: 2.0
+[1735611998] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611998] Error: Failed to initialize query handler. Aborting
+[1735611999] Nagios 4.5.7 starting... (PID=451)
+[1735611999] Local time is Tue Dec 31 02:26:39 UTC 2024
+[1735611999] LOG VERSION: 2.0
+[1735611999] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735611999] Error: Failed to initialize query handler. Aborting
+[1735612000] Nagios 4.5.7 starting... (PID=456)
+[1735612000] Local time is Tue Dec 31 02:26:40 UTC 2024
+[1735612000] LOG VERSION: 2.0
+[1735612000] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612000] Error: Failed to initialize query handler. Aborting
+[1735612001] Nagios 4.5.7 starting... (PID=461)
+[1735612001] Local time is Tue Dec 31 02:26:41 UTC 2024
+[1735612001] LOG VERSION: 2.0
+[1735612001] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612001] Error: Failed to initialize query handler. Aborting
+[1735612002] Nagios 4.5.7 starting... (PID=466)
+[1735612002] Local time is Tue Dec 31 02:26:42 UTC 2024
+[1735612002] LOG VERSION: 2.0
+[1735612002] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612002] Error: Failed to initialize query handler. Aborting
+[1735612003] Nagios 4.5.7 starting... (PID=472)
+[1735612003] Local time is Tue Dec 31 02:26:43 UTC 2024
+[1735612003] LOG VERSION: 2.0
+[1735612003] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612003] Error: Failed to initialize query handler. Aborting
+[1735612004] Nagios 4.5.7 starting... (PID=477)
+[1735612004] Local time is Tue Dec 31 02:26:44 UTC 2024
+[1735612004] LOG VERSION: 2.0
+[1735612004] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612004] Error: Failed to initialize query handler. Aborting
+[1735612006] Nagios 4.5.7 starting... (PID=482)
+[1735612006] Local time is Tue Dec 31 02:26:46 UTC 2024
+[1735612006] LOG VERSION: 2.0
+[1735612006] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612006] Error: Failed to initialize query handler. Aborting
+[1735612007] Nagios 4.5.7 starting... (PID=487)
+[1735612007] Local time is Tue Dec 31 02:26:47 UTC 2024
+[1735612007] LOG VERSION: 2.0
+[1735612007] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612007] Error: Failed to initialize query handler. Aborting
+[1735612008] Nagios 4.5.7 starting... (PID=492)
+[1735612008] Local time is Tue Dec 31 02:26:48 UTC 2024
+[1735612008] LOG VERSION: 2.0
+[1735612008] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612008] Error: Failed to initialize query handler. Aborting
+[1735612009] Nagios 4.5.7 starting... (PID=497)
+[1735612009] Local time is Tue Dec 31 02:26:49 UTC 2024
+[1735612009] LOG VERSION: 2.0
+[1735612009] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612009] Error: Failed to initialize query handler. Aborting
+[1735612010] Nagios 4.5.7 starting... (PID=502)
+[1735612010] Local time is Tue Dec 31 02:26:50 UTC 2024
+[1735612010] LOG VERSION: 2.0
+[1735612010] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612010] Error: Failed to initialize query handler. Aborting
+[1735612011] Nagios 4.5.7 starting... (PID=507)
+[1735612011] Local time is Tue Dec 31 02:26:51 UTC 2024
+[1735612011] LOG VERSION: 2.0
+[1735612011] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612011] Error: Failed to initialize query handler. Aborting
+[1735612012] Nagios 4.5.7 starting... (PID=512)
+[1735612012] Local time is Tue Dec 31 02:26:52 UTC 2024
+[1735612012] LOG VERSION: 2.0
+[1735612012] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612012] Error: Failed to initialize query handler. Aborting
+[1735612013] Nagios 4.5.7 starting... (PID=517)
+[1735612013] Local time is Tue Dec 31 02:26:53 UTC 2024
+[1735612013] LOG VERSION: 2.0
+[1735612013] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612013] Error: Failed to initialize query handler. Aborting
+[1735612014] Nagios 4.5.7 starting... (PID=522)
+[1735612014] Local time is Tue Dec 31 02:26:54 UTC 2024
+[1735612014] LOG VERSION: 2.0
+[1735612014] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612014] Error: Failed to initialize query handler. Aborting
+[1735612015] Nagios 4.5.7 starting... (PID=527)
+[1735612015] Local time is Tue Dec 31 02:26:55 UTC 2024
+[1735612015] LOG VERSION: 2.0
+[1735612015] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612015] Error: Failed to initialize query handler. Aborting
+[1735612016] Nagios 4.5.7 starting... (PID=532)
+[1735612016] Local time is Tue Dec 31 02:26:56 UTC 2024
+[1735612016] LOG VERSION: 2.0
+[1735612016] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612016] Error: Failed to initialize query handler. Aborting
+[1735612017] Nagios 4.5.7 starting... (PID=537)
+[1735612017] Local time is Tue Dec 31 02:26:57 UTC 2024
+[1735612017] LOG VERSION: 2.0
+[1735612017] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612017] Error: Failed to initialize query handler. Aborting
+[1735612018] Nagios 4.5.7 starting... (PID=542)
+[1735612018] Local time is Tue Dec 31 02:26:58 UTC 2024
+[1735612018] LOG VERSION: 2.0
+[1735612018] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612018] Error: Failed to initialize query handler. Aborting
+[1735612019] Nagios 4.5.7 starting... (PID=547)
+[1735612019] Local time is Tue Dec 31 02:26:59 UTC 2024
+[1735612019] LOG VERSION: 2.0
+[1735612019] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612019] Error: Failed to initialize query handler. Aborting
+[1735612020] Nagios 4.5.7 starting... (PID=552)
+[1735612020] Local time is Tue Dec 31 02:27:00 UTC 2024
+[1735612020] LOG VERSION: 2.0
+[1735612020] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612020] Error: Failed to initialize query handler. Aborting
+[1735612021] Nagios 4.5.7 starting... (PID=557)
+[1735612021] Local time is Tue Dec 31 02:27:01 UTC 2024
+[1735612021] LOG VERSION: 2.0
+[1735612021] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612021] Error: Failed to initialize query handler. Aborting
+[1735612022] Nagios 4.5.7 starting... (PID=562)
+[1735612022] Local time is Tue Dec 31 02:27:02 UTC 2024
+[1735612022] LOG VERSION: 2.0
+[1735612022] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612022] Error: Failed to initialize query handler. Aborting
+[1735612023] Nagios 4.5.7 starting... (PID=567)
+[1735612023] Local time is Tue Dec 31 02:27:03 UTC 2024
+[1735612023] LOG VERSION: 2.0
+[1735612023] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612023] Error: Failed to initialize query handler. Aborting
+[1735612024] Nagios 4.5.7 starting... (PID=572)
+[1735612024] Local time is Tue Dec 31 02:27:04 UTC 2024
+[1735612024] LOG VERSION: 2.0
+[1735612024] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612024] Error: Failed to initialize query handler. Aborting
+[1735612025] Nagios 4.5.7 starting... (PID=577)
+[1735612025] Local time is Tue Dec 31 02:27:05 UTC 2024
+[1735612025] LOG VERSION: 2.0
+[1735612025] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612025] Error: Failed to initialize query handler. Aborting
+[1735612026] Nagios 4.5.7 starting... (PID=582)
+[1735612026] Local time is Tue Dec 31 02:27:06 UTC 2024
+[1735612026] LOG VERSION: 2.0
+[1735612026] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612026] Error: Failed to initialize query handler. Aborting
+[1735612027] Nagios 4.5.7 starting... (PID=587)
+[1735612027] Local time is Tue Dec 31 02:27:07 UTC 2024
+[1735612027] LOG VERSION: 2.0
+[1735612027] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612027] Error: Failed to initialize query handler. Aborting
+[1735612028] Nagios 4.5.7 starting... (PID=592)
+[1735612028] Local time is Tue Dec 31 02:27:08 UTC 2024
+[1735612028] LOG VERSION: 2.0
+[1735612028] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612028] Error: Failed to initialize query handler. Aborting
+[1735612030] Nagios 4.5.7 starting... (PID=597)
+[1735612030] Local time is Tue Dec 31 02:27:10 UTC 2024
+[1735612030] LOG VERSION: 2.0
+[1735612030] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612030] Error: Failed to initialize query handler. Aborting
+[1735612031] Nagios 4.5.7 starting... (PID=604)
+[1735612031] Local time is Tue Dec 31 02:27:11 UTC 2024
+[1735612031] LOG VERSION: 2.0
+[1735612031] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612031] Error: Failed to initialize query handler. Aborting
+[1735612032] Nagios 4.5.7 starting... (PID=609)
+[1735612032] Local time is Tue Dec 31 02:27:12 UTC 2024
+[1735612032] LOG VERSION: 2.0
+[1735612032] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612032] Error: Failed to initialize query handler. Aborting
+[1735612033] Nagios 4.5.7 starting... (PID=614)
+[1735612033] Local time is Tue Dec 31 02:27:13 UTC 2024
+[1735612033] LOG VERSION: 2.0
+[1735612033] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612033] Error: Failed to initialize query handler. Aborting
+[1735612034] Nagios 4.5.7 starting... (PID=619)
+[1735612034] Local time is Tue Dec 31 02:27:14 UTC 2024
+[1735612034] LOG VERSION: 2.0
+[1735612034] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612034] Error: Failed to initialize query handler. Aborting
+[1735612035] Nagios 4.5.7 starting... (PID=624)
+[1735612035] Local time is Tue Dec 31 02:27:15 UTC 2024
+[1735612035] LOG VERSION: 2.0
+[1735612035] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612035] Error: Failed to initialize query handler. Aborting
+[1735612036] Nagios 4.5.7 starting... (PID=629)
+[1735612036] Local time is Tue Dec 31 02:27:16 UTC 2024
+[1735612036] LOG VERSION: 2.0
+[1735612036] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612036] Error: Failed to initialize query handler. Aborting
+[1735612037] Nagios 4.5.7 starting... (PID=634)
+[1735612037] Local time is Tue Dec 31 02:27:17 UTC 2024
+[1735612037] LOG VERSION: 2.0
+[1735612037] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612037] Error: Failed to initialize query handler. Aborting
+[1735612038] Nagios 4.5.7 starting... (PID=640)
+[1735612038] Local time is Tue Dec 31 02:27:18 UTC 2024
+[1735612038] LOG VERSION: 2.0
+[1735612038] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612038] Error: Failed to initialize query handler. Aborting
+[1735612039] Nagios 4.5.7 starting... (PID=645)
+[1735612039] Local time is Tue Dec 31 02:27:19 UTC 2024
+[1735612039] LOG VERSION: 2.0
+[1735612039] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612039] Error: Failed to initialize query handler. Aborting
+[1735612040] Nagios 4.5.7 starting... (PID=650)
+[1735612040] Local time is Tue Dec 31 02:27:20 UTC 2024
+[1735612040] LOG VERSION: 2.0
+[1735612040] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612040] Error: Failed to initialize query handler. Aborting
+[1735612041] Nagios 4.5.7 starting... (PID=655)
+[1735612041] Local time is Tue Dec 31 02:27:21 UTC 2024
+[1735612041] LOG VERSION: 2.0
+[1735612041] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612041] Error: Failed to initialize query handler. Aborting
+[1735612042] Nagios 4.5.7 starting... (PID=660)
+[1735612042] Local time is Tue Dec 31 02:27:22 UTC 2024
+[1735612042] LOG VERSION: 2.0
+[1735612042] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612042] Error: Failed to initialize query handler. Aborting
+[1735612043] Nagios 4.5.7 starting... (PID=665)
+[1735612043] Local time is Tue Dec 31 02:27:23 UTC 2024
+[1735612043] LOG VERSION: 2.0
+[1735612043] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612043] Error: Failed to initialize query handler. Aborting
+[1735612044] Nagios 4.5.7 starting... (PID=670)
+[1735612044] Local time is Tue Dec 31 02:27:24 UTC 2024
+[1735612044] LOG VERSION: 2.0
+[1735612044] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612044] Error: Failed to initialize query handler. Aborting
+[1735612045] Nagios 4.5.7 starting... (PID=675)
+[1735612045] Local time is Tue Dec 31 02:27:25 UTC 2024
+[1735612045] LOG VERSION: 2.0
+[1735612045] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612045] Error: Failed to initialize query handler. Aborting
+[1735612046] Nagios 4.5.7 starting... (PID=680)
+[1735612046] Local time is Tue Dec 31 02:27:26 UTC 2024
+[1735612046] LOG VERSION: 2.0
+[1735612046] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612046] Error: Failed to initialize query handler. Aborting
+[1735612047] Nagios 4.5.7 starting... (PID=685)
+[1735612047] Local time is Tue Dec 31 02:27:27 UTC 2024
+[1735612047] LOG VERSION: 2.0
+[1735612047] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612047] Error: Failed to initialize query handler. Aborting
+[1735612048] Nagios 4.5.7 starting... (PID=690)
+[1735612048] Local time is Tue Dec 31 02:27:28 UTC 2024
+[1735612048] LOG VERSION: 2.0
+[1735612048] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612048] Error: Failed to initialize query handler. Aborting
+[1735612049] Nagios 4.5.7 starting... (PID=695)
+[1735612049] Local time is Tue Dec 31 02:27:29 UTC 2024
+[1735612049] LOG VERSION: 2.0
+[1735612049] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612049] Error: Failed to initialize query handler. Aborting
+[1735612050] Nagios 4.5.7 starting... (PID=700)
+[1735612050] Local time is Tue Dec 31 02:27:30 UTC 2024
+[1735612050] LOG VERSION: 2.0
+[1735612050] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612050] Error: Failed to initialize query handler. Aborting
+[1735612051] Nagios 4.5.7 starting... (PID=705)
+[1735612051] Local time is Tue Dec 31 02:27:31 UTC 2024
+[1735612051] LOG VERSION: 2.0
+[1735612051] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612051] Error: Failed to initialize query handler. Aborting
+[1735612052] Nagios 4.5.7 starting... (PID=710)
+[1735612052] Local time is Tue Dec 31 02:27:32 UTC 2024
+[1735612052] LOG VERSION: 2.0
+[1735612052] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612052] Error: Failed to initialize query handler. Aborting
+[1735612053] Nagios 4.5.7 starting... (PID=715)
+[1735612053] Local time is Tue Dec 31 02:27:33 UTC 2024
+[1735612053] LOG VERSION: 2.0
+[1735612053] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612053] Error: Failed to initialize query handler. Aborting
+[1735612054] Nagios 4.5.7 starting... (PID=720)
+[1735612054] Local time is Tue Dec 31 02:27:34 UTC 2024
+[1735612054] LOG VERSION: 2.0
+[1735612054] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612054] Error: Failed to initialize query handler. Aborting
+[1735612055] Nagios 4.5.7 starting... (PID=725)
+[1735612055] Local time is Tue Dec 31 02:27:35 UTC 2024
+[1735612055] LOG VERSION: 2.0
+[1735612055] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612055] Error: Failed to initialize query handler. Aborting
+[1735612056] Nagios 4.5.7 starting... (PID=730)
+[1735612056] Local time is Tue Dec 31 02:27:36 UTC 2024
+[1735612056] LOG VERSION: 2.0
+[1735612056] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612056] Error: Failed to initialize query handler. Aborting
+[1735612058] Nagios 4.5.7 starting... (PID=735)
+[1735612058] Local time is Tue Dec 31 02:27:38 UTC 2024
+[1735612058] LOG VERSION: 2.0
+[1735612058] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612058] Error: Failed to initialize query handler. Aborting
+[1735612059] Nagios 4.5.7 starting... (PID=740)
+[1735612059] Local time is Tue Dec 31 02:27:39 UTC 2024
+[1735612059] LOG VERSION: 2.0
+[1735612059] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612059] Error: Failed to initialize query handler. Aborting
+[1735612060] Nagios 4.5.7 starting... (PID=745)
+[1735612060] Local time is Tue Dec 31 02:27:40 UTC 2024
+[1735612060] LOG VERSION: 2.0
+[1735612060] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612060] Error: Failed to initialize query handler. Aborting
+[1735612061] Nagios 4.5.7 starting... (PID=750)
+[1735612061] Local time is Tue Dec 31 02:27:41 UTC 2024
+[1735612061] LOG VERSION: 2.0
+[1735612061] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612061] Error: Failed to initialize query handler. Aborting
+[1735612062] Nagios 4.5.7 starting... (PID=755)
+[1735612062] Local time is Tue Dec 31 02:27:42 UTC 2024
+[1735612062] LOG VERSION: 2.0
+[1735612062] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612062] Error: Failed to initialize query handler. Aborting
+[1735612063] Nagios 4.5.7 starting... (PID=760)
+[1735612063] Local time is Tue Dec 31 02:27:43 UTC 2024
+[1735612063] LOG VERSION: 2.0
+[1735612063] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612063] Error: Failed to initialize query handler. Aborting
+[1735612064] Nagios 4.5.7 starting... (PID=765)
+[1735612064] Local time is Tue Dec 31 02:27:44 UTC 2024
+[1735612064] LOG VERSION: 2.0
+[1735612064] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612064] Error: Failed to initialize query handler. Aborting
+[1735612065] Nagios 4.5.7 starting... (PID=770)
+[1735612065] Local time is Tue Dec 31 02:27:45 UTC 2024
+[1735612065] LOG VERSION: 2.0
+[1735612065] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612065] Error: Failed to initialize query handler. Aborting
+[1735612066] Nagios 4.5.7 starting... (PID=775)
+[1735612066] Local time is Tue Dec 31 02:27:46 UTC 2024
+[1735612066] LOG VERSION: 2.0
+[1735612066] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612066] Error: Failed to initialize query handler. Aborting
+[1735612067] Nagios 4.5.7 starting... (PID=780)
+[1735612067] Local time is Tue Dec 31 02:27:47 UTC 2024
+[1735612067] LOG VERSION: 2.0
+[1735612067] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612067] Error: Failed to initialize query handler. Aborting
+[1735612068] Nagios 4.5.7 starting... (PID=785)
+[1735612068] Local time is Tue Dec 31 02:27:48 UTC 2024
+[1735612068] LOG VERSION: 2.0
+[1735612068] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612068] Error: Failed to initialize query handler. Aborting
+[1735612069] Nagios 4.5.7 starting... (PID=790)
+[1735612069] Local time is Tue Dec 31 02:27:49 UTC 2024
+[1735612069] LOG VERSION: 2.0
+[1735612069] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612069] Error: Failed to initialize query handler. Aborting
+[1735612070] Nagios 4.5.7 starting... (PID=795)
+[1735612070] Local time is Tue Dec 31 02:27:50 UTC 2024
+[1735612070] LOG VERSION: 2.0
+[1735612070] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612070] Error: Failed to initialize query handler. Aborting
+[1735612071] Nagios 4.5.7 starting... (PID=800)
+[1735612071] Local time is Tue Dec 31 02:27:51 UTC 2024
+[1735612071] LOG VERSION: 2.0
+[1735612071] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612071] Error: Failed to initialize query handler. Aborting
+[1735612072] Nagios 4.5.7 starting... (PID=805)
+[1735612072] Local time is Tue Dec 31 02:27:52 UTC 2024
+[1735612072] LOG VERSION: 2.0
+[1735612072] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612072] Error: Failed to initialize query handler. Aborting
+[1735612073] Nagios 4.5.7 starting... (PID=813)
+[1735612073] Local time is Tue Dec 31 02:27:53 UTC 2024
+[1735612073] LOG VERSION: 2.0
+[1735612073] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612073] Error: Failed to initialize query handler. Aborting
+[1735612075] Nagios 4.5.7 starting... (PID=818)
+[1735612075] Local time is Tue Dec 31 02:27:55 UTC 2024
+[1735612075] LOG VERSION: 2.0
+[1735612075] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612075] Error: Failed to initialize query handler. Aborting
+[1735612076] Nagios 4.5.7 starting... (PID=823)
+[1735612076] Local time is Tue Dec 31 02:27:56 UTC 2024
+[1735612076] LOG VERSION: 2.0
+[1735612076] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612076] Error: Failed to initialize query handler. Aborting
+[1735612077] Nagios 4.5.7 starting... (PID=828)
+[1735612077] Local time is Tue Dec 31 02:27:57 UTC 2024
+[1735612077] LOG VERSION: 2.0
+[1735612077] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612077] Error: Failed to initialize query handler. Aborting
+[1735612078] Nagios 4.5.7 starting... (PID=833)
+[1735612078] Local time is Tue Dec 31 02:27:58 UTC 2024
+[1735612078] LOG VERSION: 2.0
+[1735612078] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612078] Error: Failed to initialize query handler. Aborting
+[1735612079] Nagios 4.5.7 starting... (PID=838)
+[1735612079] Local time is Tue Dec 31 02:27:59 UTC 2024
+[1735612079] LOG VERSION: 2.0
+[1735612079] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612079] Error: Failed to initialize query handler. Aborting
+[1735612080] Nagios 4.5.7 starting... (PID=844)
+[1735612080] Local time is Tue Dec 31 02:28:00 UTC 2024
+[1735612080] LOG VERSION: 2.0
+[1735612080] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612080] Error: Failed to initialize query handler. Aborting
+[1735612081] Nagios 4.5.7 starting... (PID=849)
+[1735612081] Local time is Tue Dec 31 02:28:01 UTC 2024
+[1735612081] LOG VERSION: 2.0
+[1735612081] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612081] Error: Failed to initialize query handler. Aborting
+[1735612083] Nagios 4.5.7 starting... (PID=854)
+[1735612083] Local time is Tue Dec 31 02:28:03 UTC 2024
+[1735612083] LOG VERSION: 2.0
+[1735612083] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612083] Error: Failed to initialize query handler. Aborting
+[1735612084] Nagios 4.5.7 starting... (PID=859)
+[1735612084] Local time is Tue Dec 31 02:28:04 UTC 2024
+[1735612084] LOG VERSION: 2.0
+[1735612084] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612084] Error: Failed to initialize query handler. Aborting
+[1735612085] Nagios 4.5.7 starting... (PID=864)
+[1735612085] Local time is Tue Dec 31 02:28:05 UTC 2024
+[1735612085] LOG VERSION: 2.0
+[1735612085] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612085] Error: Failed to initialize query handler. Aborting
+[1735612086] Nagios 4.5.7 starting... (PID=869)
+[1735612086] Local time is Tue Dec 31 02:28:06 UTC 2024
+[1735612086] LOG VERSION: 2.0
+[1735612086] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612086] Error: Failed to initialize query handler. Aborting
+[1735612087] Nagios 4.5.7 starting... (PID=874)
+[1735612087] Local time is Tue Dec 31 02:28:07 UTC 2024
+[1735612087] LOG VERSION: 2.0
+[1735612087] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612087] Error: Failed to initialize query handler. Aborting
+[1735612088] Nagios 4.5.7 starting... (PID=879)
+[1735612088] Local time is Tue Dec 31 02:28:08 UTC 2024
+[1735612088] LOG VERSION: 2.0
+[1735612088] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612088] Error: Failed to initialize query handler. Aborting
+[1735612089] Nagios 4.5.7 starting... (PID=884)
+[1735612089] Local time is Tue Dec 31 02:28:09 UTC 2024
+[1735612089] LOG VERSION: 2.0
+[1735612089] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612089] Error: Failed to initialize query handler. Aborting
+[1735612090] Nagios 4.5.7 starting... (PID=889)
+[1735612090] Local time is Tue Dec 31 02:28:10 UTC 2024
+[1735612090] LOG VERSION: 2.0
+[1735612090] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612090] Error: Failed to initialize query handler. Aborting
+[1735612091] Nagios 4.5.7 starting... (PID=894)
+[1735612091] Local time is Tue Dec 31 02:28:11 UTC 2024
+[1735612091] LOG VERSION: 2.0
+[1735612091] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612091] Error: Failed to initialize query handler. Aborting
+[1735612092] Nagios 4.5.7 starting... (PID=899)
+[1735612092] Local time is Tue Dec 31 02:28:12 UTC 2024
+[1735612092] LOG VERSION: 2.0
+[1735612092] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612092] Error: Failed to initialize query handler. Aborting
+[1735612093] Nagios 4.5.7 starting... (PID=904)
+[1735612093] Local time is Tue Dec 31 02:28:13 UTC 2024
+[1735612093] LOG VERSION: 2.0
+[1735612093] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612093] Error: Failed to initialize query handler. Aborting
+[1735612094] Nagios 4.5.7 starting... (PID=909)
+[1735612094] Local time is Tue Dec 31 02:28:14 UTC 2024
+[1735612094] LOG VERSION: 2.0
+[1735612094] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612094] Error: Failed to initialize query handler. Aborting
+[1735612095] Nagios 4.5.7 starting... (PID=914)
+[1735612095] Local time is Tue Dec 31 02:28:15 UTC 2024
+[1735612095] LOG VERSION: 2.0
+[1735612095] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612095] Error: Failed to initialize query handler. Aborting
+[1735612096] Nagios 4.5.7 starting... (PID=919)
+[1735612096] Local time is Tue Dec 31 02:28:16 UTC 2024
+[1735612096] LOG VERSION: 2.0
+[1735612096] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612096] Error: Failed to initialize query handler. Aborting
+[1735612097] Nagios 4.5.7 starting... (PID=924)
+[1735612097] Local time is Tue Dec 31 02:28:17 UTC 2024
+[1735612097] LOG VERSION: 2.0
+[1735612097] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612097] Error: Failed to initialize query handler. Aborting
+[1735612098] Nagios 4.5.7 starting... (PID=931)
+[1735612098] Local time is Tue Dec 31 02:28:18 UTC 2024
+[1735612098] LOG VERSION: 2.0
+[1735612098] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612098] Error: Failed to initialize query handler. Aborting
+[1735612099] Nagios 4.5.7 starting... (PID=936)
+[1735612099] Local time is Tue Dec 31 02:28:19 UTC 2024
+[1735612099] LOG VERSION: 2.0
+[1735612099] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612099] Error: Failed to initialize query handler. Aborting
+[1735612100] Nagios 4.5.7 starting... (PID=941)
+[1735612100] Local time is Tue Dec 31 02:28:20 UTC 2024
+[1735612100] LOG VERSION: 2.0
+[1735612100] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612100] Error: Failed to initialize query handler. Aborting
+[1735612101] Nagios 4.5.7 starting... (PID=946)
+[1735612101] Local time is Tue Dec 31 02:28:21 UTC 2024
+[1735612101] LOG VERSION: 2.0
+[1735612101] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612101] Error: Failed to initialize query handler. Aborting
+[1735612102] Nagios 4.5.7 starting... (PID=951)
+[1735612102] Local time is Tue Dec 31 02:28:22 UTC 2024
+[1735612102] LOG VERSION: 2.0
+[1735612102] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612102] Error: Failed to initialize query handler. Aborting
+[1735612103] Nagios 4.5.7 starting... (PID=956)
+[1735612103] Local time is Tue Dec 31 02:28:23 UTC 2024
+[1735612103] LOG VERSION: 2.0
+[1735612103] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612103] Error: Failed to initialize query handler. Aborting
+[1735612104] Nagios 4.5.7 starting... (PID=961)
+[1735612104] Local time is Tue Dec 31 02:28:24 UTC 2024
+[1735612104] LOG VERSION: 2.0
+[1735612104] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612104] Error: Failed to initialize query handler. Aborting
+[1735612105] Nagios 4.5.7 starting... (PID=966)
+[1735612105] Local time is Tue Dec 31 02:28:25 UTC 2024
+[1735612105] LOG VERSION: 2.0
+[1735612105] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612105] Error: Failed to initialize query handler. Aborting
+[1735612106] Nagios 4.5.7 starting... (PID=971)
+[1735612106] Local time is Tue Dec 31 02:28:26 UTC 2024
+[1735612106] LOG VERSION: 2.0
+[1735612106] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612106] Error: Failed to initialize query handler. Aborting
+[1735612107] Nagios 4.5.7 starting... (PID=976)
+[1735612107] Local time is Tue Dec 31 02:28:27 UTC 2024
+[1735612107] LOG VERSION: 2.0
+[1735612107] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612107] Error: Failed to initialize query handler. Aborting
+[1735612108] Nagios 4.5.7 starting... (PID=981)
+[1735612108] Local time is Tue Dec 31 02:28:28 UTC 2024
+[1735612108] LOG VERSION: 2.0
+[1735612108] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612108] Error: Failed to initialize query handler. Aborting
+[1735612109] Nagios 4.5.7 starting... (PID=986)
+[1735612109] Local time is Tue Dec 31 02:28:29 UTC 2024
+[1735612109] LOG VERSION: 2.0
+[1735612109] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612109] Error: Failed to initialize query handler. Aborting
+[1735612110] Nagios 4.5.7 starting... (PID=991)
+[1735612110] Local time is Tue Dec 31 02:28:30 UTC 2024
+[1735612110] LOG VERSION: 2.0
+[1735612110] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612110] Error: Failed to initialize query handler. Aborting
+[1735612111] Nagios 4.5.7 starting... (PID=996)
+[1735612111] Local time is Tue Dec 31 02:28:31 UTC 2024
+[1735612111] LOG VERSION: 2.0
+[1735612111] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612111] Error: Failed to initialize query handler. Aborting
+[1735612112] Nagios 4.5.7 starting... (PID=1001)
+[1735612112] Local time is Tue Dec 31 02:28:32 UTC 2024
+[1735612112] LOG VERSION: 2.0
+[1735612112] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612112] Error: Failed to initialize query handler. Aborting
+[1735612113] Nagios 4.5.7 starting... (PID=1006)
+[1735612113] Local time is Tue Dec 31 02:28:33 UTC 2024
+[1735612113] LOG VERSION: 2.0
+[1735612113] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612113] Error: Failed to initialize query handler. Aborting
+[1735612114] Nagios 4.5.7 starting... (PID=1011)
+[1735612114] Local time is Tue Dec 31 02:28:34 UTC 2024
+[1735612114] LOG VERSION: 2.0
+[1735612114] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612114] Error: Failed to initialize query handler. Aborting
+[1735612116] Nagios 4.5.7 starting... (PID=1016)
+[1735612116] Local time is Tue Dec 31 02:28:36 UTC 2024
+[1735612116] LOG VERSION: 2.0
+[1735612116] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612116] Error: Failed to initialize query handler. Aborting
+[1735612117] Nagios 4.5.7 starting... (PID=1021)
+[1735612117] Local time is Tue Dec 31 02:28:37 UTC 2024
+[1735612117] LOG VERSION: 2.0
+[1735612117] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612117] Error: Failed to initialize query handler. Aborting
+[1735612118] Nagios 4.5.7 starting... (PID=1026)
+[1735612118] Local time is Tue Dec 31 02:28:38 UTC 2024
+[1735612118] LOG VERSION: 2.0
+[1735612118] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612118] Error: Failed to initialize query handler. Aborting
+[1735612119] Nagios 4.5.7 starting... (PID=1031)
+[1735612119] Local time is Tue Dec 31 02:28:39 UTC 2024
+[1735612119] LOG VERSION: 2.0
+[1735612119] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612119] Error: Failed to initialize query handler. Aborting
+[1735612120] Nagios 4.5.7 starting... (PID=1036)
+[1735612120] Local time is Tue Dec 31 02:28:40 UTC 2024
+[1735612120] LOG VERSION: 2.0
+[1735612120] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612120] Error: Failed to initialize query handler. Aborting
+[1735612121] Nagios 4.5.7 starting... (PID=1041)
+[1735612121] Local time is Tue Dec 31 02:28:41 UTC 2024
+[1735612121] LOG VERSION: 2.0
+[1735612121] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612121] Error: Failed to initialize query handler. Aborting
+[1735612122] Nagios 4.5.7 starting... (PID=1046)
+[1735612122] Local time is Tue Dec 31 02:28:42 UTC 2024
+[1735612122] LOG VERSION: 2.0
+[1735612122] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612122] Error: Failed to initialize query handler. Aborting
+[1735612123] Nagios 4.5.7 starting... (PID=1052)
+[1735612123] Local time is Tue Dec 31 02:28:43 UTC 2024
+[1735612123] LOG VERSION: 2.0
+[1735612123] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612123] Error: Failed to initialize query handler. Aborting
+[1735612124] Nagios 4.5.7 starting... (PID=1057)
+[1735612124] Local time is Tue Dec 31 02:28:44 UTC 2024
+[1735612124] LOG VERSION: 2.0
+[1735612124] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612124] Error: Failed to initialize query handler. Aborting
+[1735612125] Nagios 4.5.7 starting... (PID=1062)
+[1735612125] Local time is Tue Dec 31 02:28:45 UTC 2024
+[1735612125] LOG VERSION: 2.0
+[1735612125] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612125] Error: Failed to initialize query handler. Aborting
+[1735612126] Nagios 4.5.7 starting... (PID=1067)
+[1735612126] Local time is Tue Dec 31 02:28:46 UTC 2024
+[1735612126] LOG VERSION: 2.0
+[1735612126] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612126] Error: Failed to initialize query handler. Aborting
+[1735612127] Nagios 4.5.7 starting... (PID=1072)
+[1735612127] Local time is Tue Dec 31 02:28:47 UTC 2024
+[1735612127] LOG VERSION: 2.0
+[1735612127] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612127] Error: Failed to initialize query handler. Aborting
+[1735612128] Nagios 4.5.7 starting... (PID=1077)
+[1735612128] Local time is Tue Dec 31 02:28:48 UTC 2024
+[1735612128] LOG VERSION: 2.0
+[1735612128] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612128] Error: Failed to initialize query handler. Aborting
+[1735612129] Nagios 4.5.7 starting... (PID=1082)
+[1735612129] Local time is Tue Dec 31 02:28:49 UTC 2024
+[1735612129] LOG VERSION: 2.0
+[1735612129] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612129] Error: Failed to initialize query handler. Aborting
+[1735612130] Nagios 4.5.7 starting... (PID=1087)
+[1735612130] Local time is Tue Dec 31 02:28:50 UTC 2024
+[1735612130] LOG VERSION: 2.0
+[1735612130] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612130] Error: Failed to initialize query handler. Aborting
+[1735612131] Nagios 4.5.7 starting... (PID=1092)
+[1735612131] Local time is Tue Dec 31 02:28:51 UTC 2024
+[1735612131] LOG VERSION: 2.0
+[1735612131] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612131] Error: Failed to initialize query handler. Aborting
+[1735612132] Nagios 4.5.7 starting... (PID=1097)
+[1735612132] Local time is Tue Dec 31 02:28:52 UTC 2024
+[1735612132] LOG VERSION: 2.0
+[1735612132] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612132] Error: Failed to initialize query handler. Aborting
+[1735612133] Nagios 4.5.7 starting... (PID=1102)
+[1735612133] Local time is Tue Dec 31 02:28:53 UTC 2024
+[1735612133] LOG VERSION: 2.0
+[1735612133] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612133] Error: Failed to initialize query handler. Aborting
+[1735612134] Nagios 4.5.7 starting... (PID=1107)
+[1735612134] Local time is Tue Dec 31 02:28:54 UTC 2024
+[1735612134] LOG VERSION: 2.0
+[1735612134] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612134] Error: Failed to initialize query handler. Aborting
+[1735612135] Nagios 4.5.7 starting... (PID=1112)
+[1735612135] Local time is Tue Dec 31 02:28:55 UTC 2024
+[1735612135] LOG VERSION: 2.0
+[1735612135] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612135] Error: Failed to initialize query handler. Aborting
+[1735612136] Nagios 4.5.7 starting... (PID=1117)
+[1735612136] Local time is Tue Dec 31 02:28:56 UTC 2024
+[1735612136] LOG VERSION: 2.0
+[1735612136] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612136] Error: Failed to initialize query handler. Aborting
+[1735612137] Nagios 4.5.7 starting... (PID=1122)
+[1735612137] Local time is Tue Dec 31 02:28:57 UTC 2024
+[1735612137] LOG VERSION: 2.0
+[1735612137] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612137] Error: Failed to initialize query handler. Aborting
+[1735612138] Nagios 4.5.7 starting... (PID=1127)
+[1735612138] Local time is Tue Dec 31 02:28:58 UTC 2024
+[1735612138] LOG VERSION: 2.0
+[1735612138] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612138] Error: Failed to initialize query handler. Aborting
+[1735612139] Nagios 4.5.7 starting... (PID=1132)
+[1735612139] Local time is Tue Dec 31 02:28:59 UTC 2024
+[1735612139] LOG VERSION: 2.0
+[1735612139] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612139] Error: Failed to initialize query handler. Aborting
+[1735612140] Nagios 4.5.7 starting... (PID=1137)
+[1735612140] Local time is Tue Dec 31 02:29:00 UTC 2024
+[1735612140] LOG VERSION: 2.0
+[1735612140] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612140] Error: Failed to initialize query handler. Aborting
+[1735612141] Nagios 4.5.7 starting... (PID=1142)
+[1735612141] Local time is Tue Dec 31 02:29:01 UTC 2024
+[1735612141] LOG VERSION: 2.0
+[1735612141] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612141] Error: Failed to initialize query handler. Aborting
+[1735612142] Nagios 4.5.7 starting... (PID=1147)
+[1735612142] Local time is Tue Dec 31 02:29:02 UTC 2024
+[1735612142] LOG VERSION: 2.0
+[1735612142] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612142] Error: Failed to initialize query handler. Aborting
+[1735612144] Nagios 4.5.7 starting... (PID=1152)
+[1735612144] Local time is Tue Dec 31 02:29:04 UTC 2024
+[1735612144] LOG VERSION: 2.0
+[1735612144] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612144] Error: Failed to initialize query handler. Aborting
+[1735612145] Nagios 4.5.7 starting... (PID=1159)
+[1735612145] Local time is Tue Dec 31 02:29:05 UTC 2024
+[1735612145] LOG VERSION: 2.0
+[1735612145] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612145] Error: Failed to initialize query handler. Aborting
+[1735612146] Nagios 4.5.7 starting... (PID=1164)
+[1735612146] Local time is Tue Dec 31 02:29:06 UTC 2024
+[1735612146] LOG VERSION: 2.0
+[1735612146] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612146] Error: Failed to initialize query handler. Aborting
+[1735612147] Nagios 4.5.7 starting... (PID=1169)
+[1735612147] Local time is Tue Dec 31 02:29:07 UTC 2024
+[1735612147] LOG VERSION: 2.0
+[1735612147] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612147] Error: Failed to initialize query handler. Aborting
+[1735612148] Nagios 4.5.7 starting... (PID=1174)
+[1735612148] Local time is Tue Dec 31 02:29:08 UTC 2024
+[1735612148] LOG VERSION: 2.0
+[1735612148] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612148] Error: Failed to initialize query handler. Aborting
+[1735612149] Nagios 4.5.7 starting... (PID=1179)
+[1735612149] Local time is Tue Dec 31 02:29:09 UTC 2024
+[1735612149] LOG VERSION: 2.0
+[1735612149] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612149] Error: Failed to initialize query handler. Aborting
+[1735612150] Nagios 4.5.7 starting... (PID=1184)
+[1735612150] Local time is Tue Dec 31 02:29:10 UTC 2024
+[1735612150] LOG VERSION: 2.0
+[1735612150] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612150] Error: Failed to initialize query handler. Aborting
+[1735612151] Nagios 4.5.7 starting... (PID=1189)
+[1735612151] Local time is Tue Dec 31 02:29:11 UTC 2024
+[1735612151] LOG VERSION: 2.0
+[1735612151] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612151] Error: Failed to initialize query handler. Aborting
+[1735612152] Nagios 4.5.7 starting... (PID=1194)
+[1735612152] Local time is Tue Dec 31 02:29:12 UTC 2024
+[1735612152] LOG VERSION: 2.0
+[1735612152] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612152] Error: Failed to initialize query handler. Aborting
+[1735612153] Nagios 4.5.7 starting... (PID=1199)
+[1735612153] Local time is Tue Dec 31 02:29:13 UTC 2024
+[1735612153] LOG VERSION: 2.0
+[1735612153] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612153] Error: Failed to initialize query handler. Aborting
+[1735612154] Nagios 4.5.7 starting... (PID=1204)
+[1735612154] Local time is Tue Dec 31 02:29:14 UTC 2024
+[1735612154] LOG VERSION: 2.0
+[1735612154] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612154] Error: Failed to initialize query handler. Aborting
+[1735612155] Nagios 4.5.7 starting... (PID=1209)
+[1735612155] Local time is Tue Dec 31 02:29:15 UTC 2024
+[1735612155] LOG VERSION: 2.0
+[1735612155] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612155] Error: Failed to initialize query handler. Aborting
+[1735612156] Nagios 4.5.7 starting... (PID=1215)
+[1735612156] Local time is Tue Dec 31 02:29:16 UTC 2024
+[1735612156] LOG VERSION: 2.0
+[1735612156] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612156] Error: Failed to initialize query handler. Aborting
+[1735612157] Nagios 4.5.7 starting... (PID=1220)
+[1735612157] Local time is Tue Dec 31 02:29:17 UTC 2024
+[1735612157] LOG VERSION: 2.0
+[1735612157] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612157] Error: Failed to initialize query handler. Aborting
+[1735612158] Nagios 4.5.7 starting... (PID=1225)
+[1735612158] Local time is Tue Dec 31 02:29:18 UTC 2024
+[1735612158] LOG VERSION: 2.0
+[1735612158] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612158] Error: Failed to initialize query handler. Aborting
+[1735612159] Nagios 4.5.7 starting... (PID=1230)
+[1735612159] Local time is Tue Dec 31 02:29:19 UTC 2024
+[1735612159] LOG VERSION: 2.0
+[1735612159] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612159] Error: Failed to initialize query handler. Aborting
+[1735612160] Nagios 4.5.7 starting... (PID=1235)
+[1735612160] Local time is Tue Dec 31 02:29:20 UTC 2024
+[1735612160] LOG VERSION: 2.0
+[1735612160] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612160] Error: Failed to initialize query handler. Aborting
+[1735612162] Nagios 4.5.7 starting... (PID=1240)
+[1735612162] Local time is Tue Dec 31 02:29:22 UTC 2024
+[1735612162] LOG VERSION: 2.0
+[1735612162] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612162] Error: Failed to initialize query handler. Aborting
+[1735612163] Nagios 4.5.7 starting... (PID=1245)
+[1735612163] Local time is Tue Dec 31 02:29:23 UTC 2024
+[1735612163] LOG VERSION: 2.0
+[1735612163] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612163] Error: Failed to initialize query handler. Aborting
+[1735612164] Nagios 4.5.7 starting... (PID=1250)
+[1735612164] Local time is Tue Dec 31 02:29:24 UTC 2024
+[1735612164] LOG VERSION: 2.0
+[1735612164] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612164] Error: Failed to initialize query handler. Aborting
+[1735612165] Nagios 4.5.7 starting... (PID=1255)
+[1735612165] Local time is Tue Dec 31 02:29:25 UTC 2024
+[1735612165] LOG VERSION: 2.0
+[1735612165] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612165] Error: Failed to initialize query handler. Aborting
+[1735612166] Nagios 4.5.7 starting... (PID=1260)
+[1735612166] Local time is Tue Dec 31 02:29:26 UTC 2024
+[1735612166] LOG VERSION: 2.0
+[1735612166] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612166] Error: Failed to initialize query handler. Aborting
+[1735612167] Nagios 4.5.7 starting... (PID=1265)
+[1735612167] Local time is Tue Dec 31 02:29:27 UTC 2024
+[1735612167] LOG VERSION: 2.0
+[1735612167] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612167] Error: Failed to initialize query handler. Aborting
+[1735612168] Nagios 4.5.7 starting... (PID=1270)
+[1735612168] Local time is Tue Dec 31 02:29:28 UTC 2024
+[1735612168] LOG VERSION: 2.0
+[1735612168] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612168] Error: Failed to initialize query handler. Aborting
+[1735612169] Nagios 4.5.7 starting... (PID=1275)
+[1735612169] Local time is Tue Dec 31 02:29:29 UTC 2024
+[1735612169] LOG VERSION: 2.0
+[1735612169] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612169] Error: Failed to initialize query handler. Aborting
+[1735612170] Nagios 4.5.7 starting... (PID=1280)
+[1735612170] Local time is Tue Dec 31 02:29:30 UTC 2024
+[1735612170] LOG VERSION: 2.0
+[1735612170] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612170] Error: Failed to initialize query handler. Aborting
+[1735612171] Nagios 4.5.7 starting... (PID=1285)
+[1735612171] Local time is Tue Dec 31 02:29:31 UTC 2024
+[1735612171] LOG VERSION: 2.0
+[1735612171] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612171] Error: Failed to initialize query handler. Aborting
+[1735612172] Nagios 4.5.7 starting... (PID=1290)
+[1735612172] Local time is Tue Dec 31 02:29:32 UTC 2024
+[1735612172] LOG VERSION: 2.0
+[1735612172] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612172] Error: Failed to initialize query handler. Aborting
+[1735612173] Nagios 4.5.7 starting... (PID=1295)
+[1735612173] Local time is Tue Dec 31 02:29:33 UTC 2024
+[1735612173] LOG VERSION: 2.0
+[1735612173] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612173] Error: Failed to initialize query handler. Aborting
+[1735612174] Nagios 4.5.7 starting... (PID=1300)
+[1735612174] Local time is Tue Dec 31 02:29:34 UTC 2024
+[1735612174] LOG VERSION: 2.0
+[1735612174] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612174] Error: Failed to initialize query handler. Aborting
+[1735612175] Nagios 4.5.7 starting... (PID=1305)
+[1735612175] Local time is Tue Dec 31 02:29:35 UTC 2024
+[1735612175] LOG VERSION: 2.0
+[1735612175] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612175] Error: Failed to initialize query handler. Aborting
+[1735612176] Nagios 4.5.7 starting... (PID=1310)
+[1735612176] Local time is Tue Dec 31 02:29:36 UTC 2024
+[1735612176] LOG VERSION: 2.0
+[1735612176] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612176] Error: Failed to initialize query handler. Aborting
+[1735612177] Nagios 4.5.7 starting... (PID=1315)
+[1735612177] Local time is Tue Dec 31 02:29:37 UTC 2024
+[1735612177] LOG VERSION: 2.0
+[1735612177] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612177] Error: Failed to initialize query handler. Aborting
+[1735612178] Nagios 4.5.7 starting... (PID=1320)
+[1735612178] Local time is Tue Dec 31 02:29:38 UTC 2024
+[1735612178] LOG VERSION: 2.0
+[1735612178] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612178] Error: Failed to initialize query handler. Aborting
+[1735612179] Nagios 4.5.7 starting... (PID=1327)
+[1735612179] Local time is Tue Dec 31 02:29:39 UTC 2024
+[1735612179] LOG VERSION: 2.0
+[1735612179] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612179] Error: Failed to initialize query handler. Aborting
+[1735612180] Nagios 4.5.7 starting... (PID=1332)
+[1735612180] Local time is Tue Dec 31 02:29:40 UTC 2024
+[1735612180] LOG VERSION: 2.0
+[1735612180] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612180] Error: Failed to initialize query handler. Aborting
+[1735612181] Nagios 4.5.7 starting... (PID=1337)
+[1735612181] Local time is Tue Dec 31 02:29:41 UTC 2024
+[1735612181] LOG VERSION: 2.0
+[1735612181] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612181] Error: Failed to initialize query handler. Aborting
+[1735612182] Nagios 4.5.7 starting... (PID=1342)
+[1735612182] Local time is Tue Dec 31 02:29:42 UTC 2024
+[1735612182] LOG VERSION: 2.0
+[1735612182] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612182] Error: Failed to initialize query handler. Aborting
+[1735612183] Nagios 4.5.7 starting... (PID=1347)
+[1735612183] Local time is Tue Dec 31 02:29:43 UTC 2024
+[1735612183] LOG VERSION: 2.0
+[1735612183] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612183] Error: Failed to initialize query handler. Aborting
+[1735612184] Nagios 4.5.7 starting... (PID=1352)
+[1735612184] Local time is Tue Dec 31 02:29:44 UTC 2024
+[1735612184] LOG VERSION: 2.0
+[1735612184] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612184] Error: Failed to initialize query handler. Aborting
+[1735612185] Nagios 4.5.7 starting... (PID=1357)
+[1735612185] Local time is Tue Dec 31 02:29:45 UTC 2024
+[1735612185] LOG VERSION: 2.0
+[1735612185] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612185] Error: Failed to initialize query handler. Aborting
+[1735612186] Nagios 4.5.7 starting... (PID=1362)
+[1735612186] Local time is Tue Dec 31 02:29:46 UTC 2024
+[1735612186] LOG VERSION: 2.0
+[1735612186] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612186] Error: Failed to initialize query handler. Aborting
+[1735612187] Nagios 4.5.7 starting... (PID=1367)
+[1735612187] Local time is Tue Dec 31 02:29:47 UTC 2024
+[1735612187] LOG VERSION: 2.0
+[1735612187] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612187] Error: Failed to initialize query handler. Aborting
+[1735612188] Nagios 4.5.7 starting... (PID=1372)
+[1735612188] Local time is Tue Dec 31 02:29:48 UTC 2024
+[1735612188] LOG VERSION: 2.0
+[1735612188] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612188] Error: Failed to initialize query handler. Aborting
+[1735612189] Nagios 4.5.7 starting... (PID=1378)
+[1735612189] Local time is Tue Dec 31 02:29:49 UTC 2024
+[1735612189] LOG VERSION: 2.0
+[1735612189] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612189] Error: Failed to initialize query handler. Aborting
+[1735612190] Nagios 4.5.7 starting... (PID=1383)
+[1735612190] Local time is Tue Dec 31 02:29:50 UTC 2024
+[1735612190] LOG VERSION: 2.0
+[1735612190] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612190] Error: Failed to initialize query handler. Aborting
+[1735612191] Nagios 4.5.7 starting... (PID=1388)
+[1735612191] Local time is Tue Dec 31 02:29:51 UTC 2024
+[1735612191] LOG VERSION: 2.0
+[1735612191] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612191] Error: Failed to initialize query handler. Aborting
+[1735612192] Nagios 4.5.7 starting... (PID=1393)
+[1735612192] Local time is Tue Dec 31 02:29:52 UTC 2024
+[1735612192] LOG VERSION: 2.0
+[1735612192] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612192] Error: Failed to initialize query handler. Aborting
+[1735612194] Nagios 4.5.7 starting... (PID=1398)
+[1735612194] Local time is Tue Dec 31 02:29:54 UTC 2024
+[1735612194] LOG VERSION: 2.0
+[1735612194] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612194] Error: Failed to initialize query handler. Aborting
+[1735612195] Nagios 4.5.7 starting... (PID=1403)
+[1735612195] Local time is Tue Dec 31 02:29:55 UTC 2024
+[1735612195] LOG VERSION: 2.0
+[1735612195] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612195] Error: Failed to initialize query handler. Aborting
+[1735612196] Nagios 4.5.7 starting... (PID=1408)
+[1735612196] Local time is Tue Dec 31 02:29:56 UTC 2024
+[1735612196] LOG VERSION: 2.0
+[1735612196] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612196] Error: Failed to initialize query handler. Aborting
+[1735612197] Nagios 4.5.7 starting... (PID=1413)
+[1735612197] Local time is Tue Dec 31 02:29:57 UTC 2024
+[1735612197] LOG VERSION: 2.0
+[1735612197] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612197] Error: Failed to initialize query handler. Aborting
+[1735612198] Nagios 4.5.7 starting... (PID=1418)
+[1735612198] Local time is Tue Dec 31 02:29:58 UTC 2024
+[1735612198] LOG VERSION: 2.0
+[1735612198] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612198] Error: Failed to initialize query handler. Aborting
+[1735612199] Nagios 4.5.7 starting... (PID=1423)
+[1735612199] Local time is Tue Dec 31 02:29:59 UTC 2024
+[1735612199] LOG VERSION: 2.0
+[1735612199] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612199] Error: Failed to initialize query handler. Aborting
+[1735612200] Nagios 4.5.7 starting... (PID=1428)
+[1735612200] Local time is Tue Dec 31 02:30:00 UTC 2024
+[1735612200] LOG VERSION: 2.0
+[1735612200] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612200] Error: Failed to initialize query handler. Aborting
+[1735612201] Nagios 4.5.7 starting... (PID=1433)
+[1735612201] Local time is Tue Dec 31 02:30:01 UTC 2024
+[1735612201] LOG VERSION: 2.0
+[1735612201] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612201] Error: Failed to initialize query handler. Aborting
+[1735612202] Nagios 4.5.7 starting... (PID=1438)
+[1735612202] Local time is Tue Dec 31 02:30:02 UTC 2024
+[1735612202] LOG VERSION: 2.0
+[1735612202] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612202] Error: Failed to initialize query handler. Aborting
+[1735612203] Nagios 4.5.7 starting... (PID=1443)
+[1735612203] Local time is Tue Dec 31 02:30:03 UTC 2024
+[1735612203] LOG VERSION: 2.0
+[1735612203] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612203] Error: Failed to initialize query handler. Aborting
+[1735612204] Nagios 4.5.7 starting... (PID=1448)
+[1735612204] Local time is Tue Dec 31 02:30:04 UTC 2024
+[1735612204] LOG VERSION: 2.0
+[1735612204] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612204] Error: Failed to initialize query handler. Aborting
+[1735612205] Nagios 4.5.7 starting... (PID=1453)
+[1735612205] Local time is Tue Dec 31 02:30:05 UTC 2024
+[1735612205] LOG VERSION: 2.0
+[1735612205] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612205] Error: Failed to initialize query handler. Aborting
+[1735612206] Nagios 4.5.7 starting... (PID=1458)
+[1735612206] Local time is Tue Dec 31 02:30:06 UTC 2024
+[1735612206] LOG VERSION: 2.0
+[1735612206] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612206] Error: Failed to initialize query handler. Aborting
+[1735612208] Nagios 4.5.7 starting... (PID=1465)
+[1735612208] Local time is Tue Dec 31 02:30:08 UTC 2024
+[1735612208] LOG VERSION: 2.0
+[1735612208] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612208] Error: Failed to initialize query handler. Aborting
+[1735612209] Nagios 4.5.7 starting... (PID=1470)
+[1735612209] Local time is Tue Dec 31 02:30:09 UTC 2024
+[1735612209] LOG VERSION: 2.0
+[1735612209] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612209] Error: Failed to initialize query handler. Aborting
+[1735612210] Nagios 4.5.7 starting... (PID=1475)
+[1735612210] Local time is Tue Dec 31 02:30:10 UTC 2024
+[1735612210] LOG VERSION: 2.0
+[1735612210] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612210] Error: Failed to initialize query handler. Aborting
+[1735612211] Nagios 4.5.7 starting... (PID=1480)
+[1735612211] Local time is Tue Dec 31 02:30:11 UTC 2024
+[1735612211] LOG VERSION: 2.0
+[1735612211] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612211] Error: Failed to initialize query handler. Aborting
+[1735612212] Nagios 4.5.7 starting... (PID=1485)
+[1735612212] Local time is Tue Dec 31 02:30:12 UTC 2024
+[1735612212] LOG VERSION: 2.0
+[1735612212] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612212] Error: Failed to initialize query handler. Aborting
+[1735612213] Nagios 4.5.7 starting... (PID=1490)
+[1735612213] Local time is Tue Dec 31 02:30:13 UTC 2024
+[1735612213] LOG VERSION: 2.0
+[1735612213] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612213] Error: Failed to initialize query handler. Aborting
+[1735612214] Nagios 4.5.7 starting... (PID=1495)
+[1735612214] Local time is Tue Dec 31 02:30:14 UTC 2024
+[1735612214] LOG VERSION: 2.0
+[1735612214] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612214] Error: Failed to initialize query handler. Aborting
+[1735612215] Nagios 4.5.7 starting... (PID=1501)
+[1735612215] Local time is Tue Dec 31 02:30:15 UTC 2024
+[1735612215] LOG VERSION: 2.0
+[1735612215] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612215] Error: Failed to initialize query handler. Aborting
+[1735612216] Nagios 4.5.7 starting... (PID=1506)
+[1735612216] Local time is Tue Dec 31 02:30:16 UTC 2024
+[1735612216] LOG VERSION: 2.0
+[1735612216] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612216] Error: Failed to initialize query handler. Aborting
+[1735612217] Nagios 4.5.7 starting... (PID=1511)
+[1735612217] Local time is Tue Dec 31 02:30:17 UTC 2024
+[1735612217] LOG VERSION: 2.0
+[1735612217] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612217] Error: Failed to initialize query handler. Aborting
+[1735612218] Nagios 4.5.7 starting... (PID=1516)
+[1735612218] Local time is Tue Dec 31 02:30:18 UTC 2024
+[1735612218] LOG VERSION: 2.0
+[1735612218] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612218] Error: Failed to initialize query handler. Aborting
+[1735612219] Nagios 4.5.7 starting... (PID=1521)
+[1735612219] Local time is Tue Dec 31 02:30:19 UTC 2024
+[1735612219] LOG VERSION: 2.0
+[1735612219] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612219] Error: Failed to initialize query handler. Aborting
+[1735612220] Nagios 4.5.7 starting... (PID=1526)
+[1735612220] Local time is Tue Dec 31 02:30:20 UTC 2024
+[1735612220] LOG VERSION: 2.0
+[1735612220] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612220] Error: Failed to initialize query handler. Aborting
+[1735612221] Nagios 4.5.7 starting... (PID=1531)
+[1735612221] Local time is Tue Dec 31 02:30:21 UTC 2024
+[1735612221] LOG VERSION: 2.0
+[1735612221] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612221] Error: Failed to initialize query handler. Aborting
+[1735612222] Nagios 4.5.7 starting... (PID=1536)
+[1735612222] Local time is Tue Dec 31 02:30:22 UTC 2024
+[1735612222] LOG VERSION: 2.0
+[1735612222] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612222] Error: Failed to initialize query handler. Aborting
+[1735612224] Nagios 4.5.7 starting... (PID=1541)
+[1735612224] Local time is Tue Dec 31 02:30:24 UTC 2024
+[1735612224] LOG VERSION: 2.0
+[1735612224] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612224] Error: Failed to initialize query handler. Aborting
+[1735612225] Nagios 4.5.7 starting... (PID=1546)
+[1735612225] Local time is Tue Dec 31 02:30:25 UTC 2024
+[1735612225] LOG VERSION: 2.0
+[1735612225] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612225] Error: Failed to initialize query handler. Aborting
+[1735612226] Nagios 4.5.7 starting... (PID=1551)
+[1735612226] Local time is Tue Dec 31 02:30:26 UTC 2024
+[1735612226] LOG VERSION: 2.0
+[1735612226] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612226] Error: Failed to initialize query handler. Aborting
+[1735612227] Nagios 4.5.7 starting... (PID=1558)
+[1735612227] Local time is Tue Dec 31 02:30:27 UTC 2024
+[1735612227] LOG VERSION: 2.0
+[1735612227] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612227] Error: Failed to initialize query handler. Aborting
+[1735612228] Nagios 4.5.7 starting... (PID=1563)
+[1735612228] Local time is Tue Dec 31 02:30:28 UTC 2024
+[1735612228] LOG VERSION: 2.0
+[1735612228] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612228] Error: Failed to initialize query handler. Aborting
+[1735612229] Nagios 4.5.7 starting... (PID=1568)
+[1735612229] Local time is Tue Dec 31 02:30:29 UTC 2024
+[1735612229] LOG VERSION: 2.0
+[1735612229] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612229] Error: Failed to initialize query handler. Aborting
+[1735612230] Nagios 4.5.7 starting... (PID=1573)
+[1735612230] Local time is Tue Dec 31 02:30:30 UTC 2024
+[1735612230] LOG VERSION: 2.0
+[1735612230] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612230] Error: Failed to initialize query handler. Aborting
+[1735612231] Nagios 4.5.7 starting... (PID=1578)
+[1735612231] Local time is Tue Dec 31 02:30:31 UTC 2024
+[1735612231] LOG VERSION: 2.0
+[1735612231] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612231] Error: Failed to initialize query handler. Aborting
+[1735612232] Nagios 4.5.7 starting... (PID=1583)
+[1735612232] Local time is Tue Dec 31 02:30:32 UTC 2024
+[1735612232] LOG VERSION: 2.0
+[1735612232] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612232] Error: Failed to initialize query handler. Aborting
+[1735612233] Nagios 4.5.7 starting... (PID=1588)
+[1735612233] Local time is Tue Dec 31 02:30:33 UTC 2024
+[1735612233] LOG VERSION: 2.0
+[1735612233] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612233] Error: Failed to initialize query handler. Aborting
+[1735612234] Nagios 4.5.7 starting... (PID=1594)
+[1735612234] Local time is Tue Dec 31 02:30:34 UTC 2024
+[1735612234] LOG VERSION: 2.0
+[1735612234] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612234] Error: Failed to initialize query handler. Aborting
+[1735612236] Nagios 4.5.7 starting... (PID=1599)
+[1735612236] Local time is Tue Dec 31 02:30:36 UTC 2024
+[1735612236] LOG VERSION: 2.0
+[1735612236] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612236] Error: Failed to initialize query handler. Aborting
+[1735612237] Nagios 4.5.7 starting... (PID=1604)
+[1735612237] Local time is Tue Dec 31 02:30:37 UTC 2024
+[1735612237] LOG VERSION: 2.0
+[1735612237] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612237] Error: Failed to initialize query handler. Aborting
+[1735612238] Nagios 4.5.7 starting... (PID=1609)
+[1735612238] Local time is Tue Dec 31 02:30:38 UTC 2024
+[1735612238] LOG VERSION: 2.0
+[1735612238] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612238] Error: Failed to initialize query handler. Aborting
+[1735612239] Nagios 4.5.7 starting... (PID=1614)
+[1735612239] Local time is Tue Dec 31 02:30:39 UTC 2024
+[1735612239] LOG VERSION: 2.0
+[1735612239] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612239] Error: Failed to initialize query handler. Aborting
+[1735612240] Nagios 4.5.7 starting... (PID=1619)
+[1735612240] Local time is Tue Dec 31 02:30:40 UTC 2024
+[1735612240] LOG VERSION: 2.0
+[1735612240] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612240] Error: Failed to initialize query handler. Aborting
+[1735612241] Nagios 4.5.7 starting... (PID=1624)
+[1735612241] Local time is Tue Dec 31 02:30:41 UTC 2024
+[1735612241] LOG VERSION: 2.0
+[1735612241] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612241] Error: Failed to initialize query handler. Aborting
+[1735612242] Nagios 4.5.7 starting... (PID=1629)
+[1735612242] Local time is Tue Dec 31 02:30:42 UTC 2024
+[1735612242] LOG VERSION: 2.0
+[1735612242] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612242] Error: Failed to initialize query handler. Aborting
+[1735612243] Nagios 4.5.7 starting... (PID=1634)
+[1735612243] Local time is Tue Dec 31 02:30:43 UTC 2024
+[1735612243] LOG VERSION: 2.0
+[1735612243] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612243] Error: Failed to initialize query handler. Aborting
+[1735612244] Nagios 4.5.7 starting... (PID=1639)
+[1735612244] Local time is Tue Dec 31 02:30:44 UTC 2024
+[1735612244] LOG VERSION: 2.0
+[1735612244] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612244] Error: Failed to initialize query handler. Aborting
+[1735612245] Nagios 4.5.7 starting... (PID=1644)
+[1735612245] Local time is Tue Dec 31 02:30:45 UTC 2024
+[1735612245] LOG VERSION: 2.0
+[1735612245] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612245] Error: Failed to initialize query handler. Aborting
+[1735612246] Nagios 4.5.7 starting... (PID=1649)
+[1735612246] Local time is Tue Dec 31 02:30:46 UTC 2024
+[1735612246] LOG VERSION: 2.0
+[1735612246] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612246] Error: Failed to initialize query handler. Aborting
+[1735612247] Nagios 4.5.7 starting... (PID=1654)
+[1735612247] Local time is Tue Dec 31 02:30:47 UTC 2024
+[1735612247] LOG VERSION: 2.0
+[1735612247] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612247] Error: Failed to initialize query handler. Aborting
+[1735612248] Nagios 4.5.7 starting... (PID=1659)
+[1735612248] Local time is Tue Dec 31 02:30:48 UTC 2024
+[1735612248] LOG VERSION: 2.0
+[1735612248] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612248] Error: Failed to initialize query handler. Aborting
+[1735612249] Nagios 4.5.7 starting... (PID=1664)
+[1735612249] Local time is Tue Dec 31 02:30:49 UTC 2024
+[1735612249] LOG VERSION: 2.0
+[1735612249] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612250] Error: Failed to initialize query handler. Aborting
+[1735612251] Nagios 4.5.7 starting... (PID=1669)
+[1735612251] Local time is Tue Dec 31 02:30:51 UTC 2024
+[1735612251] LOG VERSION: 2.0
+[1735612251] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612251] Error: Failed to initialize query handler. Aborting
+[1735612252] Nagios 4.5.7 starting... (PID=1674)
+[1735612252] Local time is Tue Dec 31 02:30:52 UTC 2024
+[1735612252] LOG VERSION: 2.0
+[1735612252] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612252] Error: Failed to initialize query handler. Aborting
+[1735612253] Nagios 4.5.7 starting... (PID=1679)
+[1735612253] Local time is Tue Dec 31 02:30:53 UTC 2024
+[1735612253] LOG VERSION: 2.0
+[1735612253] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612253] Error: Failed to initialize query handler. Aborting
+[1735612254] Nagios 4.5.7 starting... (PID=1685)
+[1735612254] Local time is Tue Dec 31 02:30:54 UTC 2024
+[1735612254] LOG VERSION: 2.0
+[1735612254] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612254] Error: Failed to initialize query handler. Aborting
+[1735612255] Nagios 4.5.7 starting... (PID=1691)
+[1735612255] Local time is Tue Dec 31 02:30:55 UTC 2024
+[1735612255] LOG VERSION: 2.0
+[1735612255] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612255] Error: Failed to initialize query handler. Aborting
+[1735612256] Nagios 4.5.7 starting... (PID=1696)
+[1735612256] Local time is Tue Dec 31 02:30:56 UTC 2024
+[1735612256] LOG VERSION: 2.0
+[1735612256] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612256] Error: Failed to initialize query handler. Aborting
+[1735612257] Nagios 4.5.7 starting... (PID=1702)
+[1735612257] Local time is Tue Dec 31 02:30:57 UTC 2024
+[1735612257] LOG VERSION: 2.0
+[1735612257] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612257] Error: Failed to initialize query handler. Aborting
+[1735612258] Nagios 4.5.7 starting... (PID=1707)
+[1735612258] Local time is Tue Dec 31 02:30:58 UTC 2024
+[1735612258] LOG VERSION: 2.0
+[1735612258] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612258] Error: Failed to initialize query handler. Aborting
+[1735612259] Nagios 4.5.7 starting... (PID=1712)
+[1735612259] Local time is Tue Dec 31 02:30:59 UTC 2024
+[1735612259] LOG VERSION: 2.0
+[1735612259] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612259] Error: Failed to initialize query handler. Aborting
+[1735612260] Nagios 4.5.7 starting... (PID=1717)
+[1735612260] Local time is Tue Dec 31 02:31:00 UTC 2024
+[1735612260] LOG VERSION: 2.0
+[1735612260] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612260] Error: Failed to initialize query handler. Aborting
+[1735612262] Nagios 4.5.7 starting... (PID=1722)
+[1735612262] Local time is Tue Dec 31 02:31:02 UTC 2024
+[1735612262] LOG VERSION: 2.0
+[1735612262] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612262] Error: Failed to initialize query handler. Aborting
+[1735612263] Nagios 4.5.7 starting... (PID=1727)
+[1735612263] Local time is Tue Dec 31 02:31:03 UTC 2024
+[1735612263] LOG VERSION: 2.0
+[1735612263] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612263] Error: Failed to initialize query handler. Aborting
+[1735612264] Nagios 4.5.7 starting... (PID=1732)
+[1735612264] Local time is Tue Dec 31 02:31:04 UTC 2024
+[1735612264] LOG VERSION: 2.0
+[1735612264] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612264] Error: Failed to initialize query handler. Aborting
+[1735612265] Nagios 4.5.7 starting... (PID=1737)
+[1735612265] Local time is Tue Dec 31 02:31:05 UTC 2024
+[1735612265] LOG VERSION: 2.0
+[1735612265] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612265] Error: Failed to initialize query handler. Aborting
+[1735612266] Nagios 4.5.7 starting... (PID=1742)
+[1735612266] Local time is Tue Dec 31 02:31:06 UTC 2024
+[1735612266] LOG VERSION: 2.0
+[1735612266] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612266] Error: Failed to initialize query handler. Aborting
+[1735612267] Nagios 4.5.7 starting... (PID=1747)
+[1735612267] Local time is Tue Dec 31 02:31:07 UTC 2024
+[1735612267] LOG VERSION: 2.0
+[1735612267] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612267] Error: Failed to initialize query handler. Aborting
+[1735612268] Nagios 4.5.7 starting... (PID=1755)
+[1735612268] Local time is Tue Dec 31 02:31:08 UTC 2024
+[1735612268] LOG VERSION: 2.0
+[1735612268] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612268] Error: Failed to initialize query handler. Aborting
+[1735612269] Nagios 4.5.7 starting... (PID=1760)
+[1735612269] Local time is Tue Dec 31 02:31:09 UTC 2024
+[1735612269] LOG VERSION: 2.0
+[1735612269] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612269] Error: Failed to initialize query handler. Aborting
+[1735612270] Nagios 4.5.7 starting... (PID=1765)
+[1735612270] Local time is Tue Dec 31 02:31:10 UTC 2024
+[1735612270] LOG VERSION: 2.0
+[1735612270] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612270] Error: Failed to initialize query handler. Aborting
+[1735612272] Nagios 4.5.7 starting... (PID=1770)
+[1735612272] Local time is Tue Dec 31 02:31:12 UTC 2024
+[1735612272] LOG VERSION: 2.0
+[1735612272] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612272] Error: Failed to initialize query handler. Aborting
+[1735612273] Nagios 4.5.7 starting... (PID=1775)
+[1735612273] Local time is Tue Dec 31 02:31:13 UTC 2024
+[1735612273] LOG VERSION: 2.0
+[1735612273] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612273] Error: Failed to initialize query handler. Aborting
+[1735612274] Nagios 4.5.7 starting... (PID=1780)
+[1735612274] Local time is Tue Dec 31 02:31:14 UTC 2024
+[1735612274] LOG VERSION: 2.0
+[1735612274] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612274] Error: Failed to initialize query handler. Aborting
+[1735612275] Nagios 4.5.7 starting... (PID=1785)
+[1735612275] Local time is Tue Dec 31 02:31:15 UTC 2024
+[1735612275] LOG VERSION: 2.0
+[1735612275] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612275] Error: Failed to initialize query handler. Aborting
+[1735612276] Nagios 4.5.7 starting... (PID=1790)
+[1735612276] Local time is Tue Dec 31 02:31:16 UTC 2024
+[1735612276] LOG VERSION: 2.0
+[1735612276] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612276] Error: Failed to initialize query handler. Aborting
+[1735612277] Nagios 4.5.7 starting... (PID=1795)
+[1735612277] Local time is Tue Dec 31 02:31:17 UTC 2024
+[1735612277] LOG VERSION: 2.0
+[1735612277] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612277] Error: Failed to initialize query handler. Aborting
+[1735612278] Nagios 4.5.7 starting... (PID=1800)
+[1735612278] Local time is Tue Dec 31 02:31:18 UTC 2024
+[1735612278] LOG VERSION: 2.0
+[1735612278] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612278] Error: Failed to initialize query handler. Aborting
+[1735612279] Nagios 4.5.7 starting... (PID=1805)
+[1735612279] Local time is Tue Dec 31 02:31:19 UTC 2024
+[1735612279] LOG VERSION: 2.0
+[1735612279] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612279] Error: Failed to initialize query handler. Aborting
+[1735612280] Nagios 4.5.7 starting... (PID=1810)
+[1735612280] Local time is Tue Dec 31 02:31:20 UTC 2024
+[1735612280] LOG VERSION: 2.0
+[1735612280] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612280] Error: Failed to initialize query handler. Aborting
+[1735612281] Nagios 4.5.7 starting... (PID=1815)
+[1735612281] Local time is Tue Dec 31 02:31:21 UTC 2024
+[1735612281] LOG VERSION: 2.0
+[1735612281] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612281] Error: Failed to initialize query handler. Aborting
+[1735612282] Nagios 4.5.7 starting... (PID=1820)
+[1735612282] Local time is Tue Dec 31 02:31:22 UTC 2024
+[1735612282] LOG VERSION: 2.0
+[1735612282] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612282] Error: Failed to initialize query handler. Aborting
+[1735612283] Nagios 4.5.7 starting... (PID=1825)
+[1735612283] Local time is Tue Dec 31 02:31:23 UTC 2024
+[1735612283] LOG VERSION: 2.0
+[1735612283] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612283] Error: Failed to initialize query handler. Aborting
+[1735612284] Nagios 4.5.7 starting... (PID=1830)
+[1735612284] Local time is Tue Dec 31 02:31:24 UTC 2024
+[1735612284] LOG VERSION: 2.0
+[1735612284] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612284] Error: Failed to initialize query handler. Aborting
+[1735612285] Nagios 4.5.7 starting... (PID=1835)
+[1735612285] Local time is Tue Dec 31 02:31:25 UTC 2024
+[1735612285] LOG VERSION: 2.0
+[1735612285] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612285] Error: Failed to initialize query handler. Aborting
+[1735612286] Nagios 4.5.7 starting... (PID=1840)
+[1735612286] Local time is Tue Dec 31 02:31:26 UTC 2024
+[1735612286] LOG VERSION: 2.0
+[1735612286] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612286] Error: Failed to initialize query handler. Aborting
+[1735612287] Nagios 4.5.7 starting... (PID=1845)
+[1735612287] Local time is Tue Dec 31 02:31:27 UTC 2024
+[1735612287] LOG VERSION: 2.0
+[1735612287] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612287] Error: Failed to initialize query handler. Aborting
+[1735612288] Nagios 4.5.7 starting... (PID=1850)
+[1735612288] Local time is Tue Dec 31 02:31:28 UTC 2024
+[1735612288] LOG VERSION: 2.0
+[1735612288] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612288] Error: Failed to initialize query handler. Aborting
+[1735612289] Nagios 4.5.7 starting... (PID=1855)
+[1735612289] Local time is Tue Dec 31 02:31:29 UTC 2024
+[1735612289] LOG VERSION: 2.0
+[1735612289] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612289] Error: Failed to initialize query handler. Aborting
+[1735612290] Nagios 4.5.7 starting... (PID=1860)
+[1735612290] Local time is Tue Dec 31 02:31:30 UTC 2024
+[1735612290] LOG VERSION: 2.0
+[1735612290] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612290] Error: Failed to initialize query handler. Aborting
+[1735612291] Nagios 4.5.7 starting... (PID=1865)
+[1735612291] Local time is Tue Dec 31 02:31:31 UTC 2024
+[1735612291] LOG VERSION: 2.0
+[1735612291] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612291] Error: Failed to initialize query handler. Aborting
+[1735612292] Nagios 4.5.7 starting... (PID=1870)
+[1735612292] Local time is Tue Dec 31 02:31:32 UTC 2024
+[1735612292] LOG VERSION: 2.0
+[1735612292] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612292] Error: Failed to initialize query handler. Aborting
+[1735612293] Nagios 4.5.7 starting... (PID=1875)
+[1735612293] Local time is Tue Dec 31 02:31:33 UTC 2024
+[1735612293] LOG VERSION: 2.0
+[1735612293] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612293] Error: Failed to initialize query handler. Aborting
+[1735612294] Nagios 4.5.7 starting... (PID=1880)
+[1735612294] Local time is Tue Dec 31 02:31:34 UTC 2024
+[1735612294] LOG VERSION: 2.0
+[1735612294] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612294] Error: Failed to initialize query handler. Aborting
+[1735612296] Nagios 4.5.7 starting... (PID=1885)
+[1735612296] Local time is Tue Dec 31 02:31:36 UTC 2024
+[1735612296] LOG VERSION: 2.0
+[1735612296] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612296] Error: Failed to initialize query handler. Aborting
+[1735612297] Nagios 4.5.7 starting... (PID=1891)
+[1735612297] Local time is Tue Dec 31 02:31:37 UTC 2024
+[1735612297] LOG VERSION: 2.0
+[1735612297] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612297] Error: Failed to initialize query handler. Aborting
+[1735612298] Nagios 4.5.7 starting... (PID=1896)
+[1735612298] Local time is Tue Dec 31 02:31:38 UTC 2024
+[1735612298] LOG VERSION: 2.0
+[1735612298] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612298] Error: Failed to initialize query handler. Aborting
+[1735612299] Nagios 4.5.7 starting... (PID=1901)
+[1735612299] Local time is Tue Dec 31 02:31:39 UTC 2024
+[1735612299] LOG VERSION: 2.0
+[1735612299] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612299] Error: Failed to initialize query handler. Aborting
+[1735612300] Nagios 4.5.7 starting... (PID=1906)
+[1735612300] Local time is Tue Dec 31 02:31:40 UTC 2024
+[1735612300] LOG VERSION: 2.0
+[1735612300] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612300] Error: Failed to initialize query handler. Aborting
+[1735612301] Nagios 4.5.7 starting... (PID=1911)
+[1735612301] Local time is Tue Dec 31 02:31:41 UTC 2024
+[1735612301] LOG VERSION: 2.0
+[1735612301] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612301] Error: Failed to initialize query handler. Aborting
+[1735612302] Nagios 4.5.7 starting... (PID=1918)
+[1735612302] Local time is Tue Dec 31 02:31:42 UTC 2024
+[1735612302] LOG VERSION: 2.0
+[1735612302] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612302] Error: Failed to initialize query handler. Aborting
+[1735612303] Nagios 4.5.7 starting... (PID=1923)
+[1735612303] Local time is Tue Dec 31 02:31:43 UTC 2024
+[1735612303] LOG VERSION: 2.0
+[1735612303] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612303] Error: Failed to initialize query handler. Aborting
+[1735612304] Nagios 4.5.7 starting... (PID=1928)
+[1735612304] Local time is Tue Dec 31 02:31:44 UTC 2024
+[1735612304] LOG VERSION: 2.0
+[1735612304] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612304] Error: Failed to initialize query handler. Aborting
+[1735612305] Nagios 4.5.7 starting... (PID=1933)
+[1735612305] Local time is Tue Dec 31 02:31:45 UTC 2024
+[1735612305] LOG VERSION: 2.0
+[1735612305] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612305] Error: Failed to initialize query handler. Aborting
+[1735612306] Nagios 4.5.7 starting... (PID=1938)
+[1735612306] Local time is Tue Dec 31 02:31:46 UTC 2024
+[1735612306] LOG VERSION: 2.0
+[1735612306] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612306] Error: Failed to initialize query handler. Aborting
+[1735612307] Nagios 4.5.7 starting... (PID=1943)
+[1735612307] Local time is Tue Dec 31 02:31:47 UTC 2024
+[1735612307] LOG VERSION: 2.0
+[1735612307] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612307] Error: Failed to initialize query handler. Aborting
+[1735612308] Nagios 4.5.7 starting... (PID=1948)
+[1735612308] Local time is Tue Dec 31 02:31:48 UTC 2024
+[1735612308] LOG VERSION: 2.0
+[1735612308] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612308] Error: Failed to initialize query handler. Aborting
+[1735612309] Nagios 4.5.7 starting... (PID=1953)
+[1735612309] Local time is Tue Dec 31 02:31:49 UTC 2024
+[1735612309] LOG VERSION: 2.0
+[1735612309] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612309] Error: Failed to initialize query handler. Aborting
+[1735612310] Nagios 4.5.7 starting... (PID=1958)
+[1735612310] Local time is Tue Dec 31 02:31:50 UTC 2024
+[1735612310] LOG VERSION: 2.0
+[1735612310] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612310] Error: Failed to initialize query handler. Aborting
+[1735612311] Nagios 4.5.7 starting... (PID=1963)
+[1735612311] Local time is Tue Dec 31 02:31:51 UTC 2024
+[1735612311] LOG VERSION: 2.0
+[1735612311] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612311] Error: Failed to initialize query handler. Aborting
+[1735612312] Nagios 4.5.7 starting... (PID=1968)
+[1735612312] Local time is Tue Dec 31 02:31:52 UTC 2024
+[1735612312] LOG VERSION: 2.0
+[1735612312] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612312] Error: Failed to initialize query handler. Aborting
+[1735612313] Nagios 4.5.7 starting... (PID=1973)
+[1735612313] Local time is Tue Dec 31 02:31:53 UTC 2024
+[1735612313] LOG VERSION: 2.0
+[1735612313] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612313] Error: Failed to initialize query handler. Aborting
+[1735612314] Nagios 4.5.7 starting... (PID=1978)
+[1735612314] Local time is Tue Dec 31 02:31:54 UTC 2024
+[1735612314] LOG VERSION: 2.0
+[1735612314] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612314] Error: Failed to initialize query handler. Aborting
+[1735612316] Nagios 4.5.7 starting... (PID=1983)
+[1735612316] Local time is Tue Dec 31 02:31:56 UTC 2024
+[1735612316] LOG VERSION: 2.0
+[1735612316] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612316] Error: Failed to initialize query handler. Aborting
+[1735612317] Nagios 4.5.7 starting... (PID=1988)
+[1735612317] Local time is Tue Dec 31 02:31:57 UTC 2024
+[1735612317] LOG VERSION: 2.0
+[1735612317] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612317] Error: Failed to initialize query handler. Aborting
+[1735612318] Nagios 4.5.7 starting... (PID=1993)
+[1735612318] Local time is Tue Dec 31 02:31:58 UTC 2024
+[1735612318] LOG VERSION: 2.0
+[1735612318] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612318] Error: Failed to initialize query handler. Aborting
+[1735612319] Nagios 4.5.7 starting... (PID=1998)
+[1735612319] Local time is Tue Dec 31 02:31:59 UTC 2024
+[1735612319] LOG VERSION: 2.0
+[1735612319] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612319] Error: Failed to initialize query handler. Aborting
+[1735612320] Nagios 4.5.7 starting... (PID=2003)
+[1735612320] Local time is Tue Dec 31 02:32:00 UTC 2024
+[1735612320] LOG VERSION: 2.0
+[1735612320] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612320] Error: Failed to initialize query handler. Aborting
+[1735612321] Nagios 4.5.7 starting... (PID=2008)
+[1735612321] Local time is Tue Dec 31 02:32:01 UTC 2024
+[1735612321] LOG VERSION: 2.0
+[1735612321] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612321] Error: Failed to initialize query handler. Aborting
+[1735612322] Nagios 4.5.7 starting... (PID=2013)
+[1735612322] Local time is Tue Dec 31 02:32:02 UTC 2024
+[1735612322] LOG VERSION: 2.0
+[1735612322] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612322] Error: Failed to initialize query handler. Aborting
+[1735612323] Nagios 4.5.7 starting... (PID=2018)
+[1735612323] Local time is Tue Dec 31 02:32:03 UTC 2024
+[1735612323] LOG VERSION: 2.0
+[1735612323] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612323] Error: Failed to initialize query handler. Aborting
+[1735612324] Nagios 4.5.7 starting... (PID=2023)
+[1735612324] Local time is Tue Dec 31 02:32:04 UTC 2024
+[1735612324] LOG VERSION: 2.0
+[1735612324] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612324] Error: Failed to initialize query handler. Aborting
+[1735612325] Nagios 4.5.7 starting... (PID=2028)
+[1735612325] Local time is Tue Dec 31 02:32:05 UTC 2024
+[1735612325] LOG VERSION: 2.0
+[1735612325] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612325] Error: Failed to initialize query handler. Aborting
+[1735612326] Nagios 4.5.7 starting... (PID=2033)
+[1735612326] Local time is Tue Dec 31 02:32:06 UTC 2024
+[1735612326] LOG VERSION: 2.0
+[1735612326] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612326] Error: Failed to initialize query handler. Aborting
+[1735612327] Nagios 4.5.7 starting... (PID=2038)
+[1735612327] Local time is Tue Dec 31 02:32:07 UTC 2024
+[1735612327] LOG VERSION: 2.0
+[1735612327] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612327] Error: Failed to initialize query handler. Aborting
+[1735612328] Nagios 4.5.7 starting... (PID=2043)
+[1735612328] Local time is Tue Dec 31 02:32:08 UTC 2024
+[1735612328] LOG VERSION: 2.0
+[1735612328] qh: Failed to init socket '/opt/nagios/var/rw/nagios.qh'. unlink() failed: Operation not supported
+[1735612328] Error: Failed to initialize query handler. Aborting

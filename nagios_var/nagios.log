@@ -1,0 +1,66 @@
+[1735612428] Nagios 4.5.7 starting... (PID=32)
+[1735612428] Local time is Tue Dec 31 02:33:48 UTC 2024
+[1735612428] LOG VERSION: 2.0
+[1735612428] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1735612428] qh: core query handler registered
+[1735612428] qh: echo service query handler registered
+[1735612428] qh: help for the query handler registered
+[1735612428] wproc: Successfully registered manager as @wproc with query handler
+[1735612428] wproc: Registry request: name=Core Worker 48;pid=48
+[1735612428] wproc: Registry request: name=Core Worker 47;pid=47
+[1735612428] wproc: Registry request: name=Core Worker 45;pid=45
+[1735612428] wproc: Registry request: name=Core Worker 44;pid=44
+[1735612428] wproc: Registry request: name=Core Worker 46;pid=46
+[1735612428] wproc: Registry request: name=Core Worker 49;pid=49
+[1735612432] Successfully launched command file worker with pid 60
+[1735612557] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;1;HTTP WARNING: HTTP/1.1 401 Unauthorized - 695 bytes in 0.002 second response time
+[1735612617] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;2;HTTP WARNING: HTTP/1.1 401 Unauthorized - 695 bytes in 0.001 second response time
+[1735612677] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;3;HTTP WARNING: HTTP/1.1 401 Unauthorized - 695 bytes in 0.002 second response time
+[1735612686] Caught SIGTERM, shutting down...
+[1735612686] Successfully shutdown... (PID=32)
+[1735612731] Nagios 4.5.7 starting... (PID=19)
+[1735612731] Local time is Tue Dec 31 02:38:51 UTC 2024
+[1735612731] LOG VERSION: 2.0
+[1735612731] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1735612731] qh: core query handler registered
+[1735612731] qh: echo service query handler registered
+[1735612731] qh: help for the query handler registered
+[1735612731] wproc: Successfully registered manager as @wproc with query handler
+[1735612731] wproc: Registry request: name=Core Worker 44;pid=44
+[1735612731] wproc: Registry request: name=Core Worker 46;pid=46
+[1735612731] wproc: Registry request: name=Core Worker 42;pid=42
+[1735612731] wproc: Registry request: name=Core Worker 45;pid=45
+[1735612731] wproc: Registry request: name=Core Worker 47;pid=47
+[1735612731] wproc: Registry request: name=Core Worker 43;pid=43
+[1735612735] Successfully launched command file worker with pid 56
+[1735612737] SERVICE ALERT: localhost;HTTP;WARNING;HARD;4;HTTP WARNING: HTTP/1.1 401 Unauthorized - 695 bytes in 0.002 second response time
+[1735612807] Caught SIGTERM, shutting down...
+[1735612807] Successfully shutdown... (PID=19)
+[1735612823] Nagios 4.5.7 starting... (PID=24)
+[1735612823] Local time is Tue Dec 31 02:40:23 UTC 2024
+[1735612823] LOG VERSION: 2.0
+[1735612823] qh: Socket '/opt/nagios/var/rw/nagios.qh' successfully initialized
+[1735612823] qh: core query handler registered
+[1735612823] qh: echo service query handler registered
+[1735612823] qh: help for the query handler registered
+[1735612823] wproc: Successfully registered manager as @wproc with query handler
+[1735612823] wproc: Registry request: name=Core Worker 36;pid=36
+[1735612823] wproc: Registry request: name=Core Worker 34;pid=34
+[1735612823] wproc: Registry request: name=Core Worker 37;pid=37
+[1735612823] wproc: Registry request: name=Core Worker 35;pid=35
+[1735612823] wproc: Registry request: name=Core Worker 33;pid=33
+[1735612823] wproc: Registry request: name=Core Worker 32;pid=32
+[1735612827] Successfully launched command file worker with pid 54
+[1735616423] Auto-save of retention data completed successfully.
+[1735620023] Auto-save of retention data completed successfully.
+[1735621799] Warning: A system time change of 1500 seconds (0d 0h 25m 0s forwards in time) has been detected.  Compensating...
+[1735624079] Warning: A system time change of 1741 seconds (0d 0h 29m 1s forwards in time) has been detected.  Compensating...
+[1735624100] Warning: Service performance data file processing command '/opt/nagiosgraph/bin/insert.pl' timed out after 5 seconds
+[1735626864] Auto-save of retention data completed successfully.
+[1735630464] Auto-save of retention data completed successfully.
+[1735634064] Auto-save of retention data completed successfully.
+[1735635572] Warning: A system time change of 1338 seconds (0d 0h 22m 18s forwards in time) has been detected.  Compensating...
+[1735639002] Auto-save of retention data completed successfully.
+[1735642602] Auto-save of retention data completed successfully.
+[1735645218] Caught SIGTERM, shutting down...
+[1735645219] Successfully shutdown... (PID=24)
