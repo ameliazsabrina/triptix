@@ -5,7 +5,7 @@
 # BY NAGIOS.  DO NOT MODIFY THIS FILE!
 ########################################
 info {
-created=1736250070
+created=1741273141
 version=4.5.7
 last_update_check=1735977750
 update_available=1
@@ -45,8 +45,8 @@ notification_period=workhours
 event_handler=
 event_handler_period=
 has_been_checked=1
-check_execution_time=4.183
-check_latency=1.339
+check_execution_time=4.130
+check_latency=4.441
 check_type=0
 current_state=0
 last_state=0
@@ -57,9 +57,9 @@ current_problem_id=0
 last_problem_id=0
 plugin_output=PING OK - Packet loss = 0%, RTA = 0.05 ms
 long_plugin_output=
-performance_data=rta=0.045000ms;3000.000000;5000.000000;0.000000 pl=0%;80;100;0
-last_check=1736250047
-next_check=1736250347
+performance_data=rta=0.046000ms;3000.000000;5000.000000;0.000000 pl=0%;80;100;0
+last_check=1741273103
+next_check=1741273403
 check_options=0
 current_attempt=1
 max_attempts=10
@@ -68,7 +68,7 @@ retry_interval=1.000000
 state_type=1
 last_state_change=1735635219
 last_hard_state_change=1735635219
-last_time_up=1736250047
+last_time_up=1741273103
 last_time_down=0
 last_time_unreachable=0
 notified_on_down=0
@@ -126,7 +126,7 @@ plugin_output=OK - load average: 0.00, 0.05, 0.07
 long_plugin_output=
 performance_data=load1=0.000;5.000;10.000;0; load5=0.050;4.000;6.000;0; load15=0.070;3.000;4.000;0;
 last_check=1736250047
-next_check=1736250347
+next_check=1741273141
 check_options=0
 notified_on_unknown=0
 notified_on_warning=0
@@ -184,7 +184,7 @@ plugin_output=USERS OK - 0 users currently logged in
 long_plugin_output=
 performance_data=users=0;20;50;0
 last_check=1736250047
-next_check=1736250347
+next_check=1741273184
 check_options=0
 notified_on_unknown=0
 notified_on_warning=0
@@ -242,7 +242,7 @@ plugin_output=HTTP WARNING: HTTP/1.1 401 Unauthorized - 695 bytes in 0.000 secon
 long_plugin_output=
 performance_data=time=0.000359s;;;0.000000 size=695B;;;0
 last_check=1736250047
-next_check=1736250347
+next_check=1741273227
 check_options=0
 notified_on_unknown=0
 notified_on_warning=0
@@ -300,7 +300,7 @@ plugin_output=PING OK - Packet loss = 0%, RTA = 0.09 ms
 long_plugin_output=
 performance_data=rta=0.086000ms;100.000000;500.000000;0.000000 pl=0%;20;60;0
 last_check=1736250047
-next_check=1736250347
+next_check=1741273270
 check_options=0
 notified_on_unknown=0
 notified_on_warning=0
@@ -358,7 +358,7 @@ plugin_output=DISK OK - free space: / 37558 MiB (66.23% inode=81%):
 long_plugin_output=
 performance_data=/=19142MiB;47813;53790;0;59767
 last_check=1736250047
-next_check=1736250347
+next_check=1741273313
 check_options=0
 notified_on_unknown=0
 notified_on_warning=0
@@ -416,7 +416,7 @@ plugin_output=SWAP OK - 100% free (1023 MB out of 1023 MB)
 long_plugin_output=
 performance_data=swap=1023MB;0;0;0;1023
 last_check=1736250047
-next_check=1736250347
+next_check=1741273356
 check_options=0
 notified_on_unknown=0
 notified_on_warning=0
@@ -474,7 +474,7 @@ plugin_output=PROCS OK: 22 processes with STATE = RSZDT
 long_plugin_output=
 performance_data=procs=22;250;400;0;
 last_check=1736250047
-next_check=1736250347
+next_check=1741273399
 check_options=0
 notified_on_unknown=0
 notified_on_warning=0

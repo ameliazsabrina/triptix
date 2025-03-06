@@ -1,18 +1,23 @@
-import express from "express";
-import pkg from "pg";
-import bodyParser from "body-parser";
-import cors from "cors";
-import bcrypt from "bcrypt";
-import jwt from "jsonwebtoken";
-import axios from "axios";
-import OpenAI from "openai";
-import dotenv from "dotenv";
-dotenv.config();
-const app = express();
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = __importDefault(require("express"));
+const pg_1 = __importDefault(require("pg"));
+const body_parser_1 = __importDefault(require("body-parser"));
+const cors_1 = __importDefault(require("cors"));
+const bcrypt_1 = __importDefault(require("bcrypt"));
+const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
+const axios_1 = __importDefault(require("axios"));
+const openai_1 = __importDefault(require("openai"));
+const dotenv_1 = __importDefault(require("dotenv"));
+dotenv_1.default.config();
+const app = (0, express_1.default)();
 const port = process.env.PORT || 5000;
-const { Pool } = pkg;
-const openai = new OpenAI();
-const client = new OpenAI({
+const { Pool } = pg_1.default;
+const openai = new openai_1.default();
+const client = new openai_1.default({
     apiKey: process.env.OPENAI_API_KEY,
 });
 const pool = new Pool({
@@ -37,15 +42,15 @@ pool.connect((err, client, release) => {
         console.log("Connected to Database:", result.rows[0]);
     });
 });
-app.use(cors());
-app.use(bodyParser.json());
+app.use((0, cors_1.default)());
+app.use(body_parser_1.default.json());
 const authenticateToken = (req, res, next) => {
     const authHeader = req.headers["authorization"];
     const token = authHeader && authHeader.split(" ")[1];
     if (!token) {
         return res.status(401).json({ message: "Authentication token required" });
     }
-    jwt.verify(token, process.env.JWT_SECRET, async (err, user) => {
+    jsonwebtoken_1.default.verify(token, process.env.JWT_SECRET, async (err, user) => {
         if (err) {
             return res.status(403).json({ message: "Invalid or expired token" });
         }
@@ -99,7 +104,7 @@ app.post("/api/register", async (req, res) => {
             return res.status(400).json({ message: "User already exists." });
         }
         // Hash the password
-        const hashedPassword = await bcrypt.hash(password, 10);
+        const hashedPassword = await bcrypt_1.default.hash(password, 10);
         // Insert user into database
         const newUser = await pool.query("INSERT INTO triptix_db.user (username, email, password_hash) VALUES ($1, $2, $3) RETURNING user_id, username, email", [username, email, hashedPassword]);
         return res.status(201).json({
@@ -138,12 +143,12 @@ app.post("/api/login", async (req, res) => {
         }
         const foundUser = user.rows[0];
         // Compare passwords
-        const isMatch = await bcrypt.compare(password, foundUser.password_hash);
+        const isMatch = await bcrypt_1.default.compare(password, foundUser.password_hash);
         if (!isMatch) {
             return res.status(401).json({ message: "Invalid credentials." });
         }
         // Generate JWT
-        const token = jwt.sign({ userId: foundUser.user_id, email: foundUser.email }, process.env.JWT_SECRET, { expiresIn: "1h" });
+        const token = jsonwebtoken_1.default.sign({ userId: foundUser.user_id, email: foundUser.email }, process.env.JWT_SECRET, { expiresIn: "1h" });
         return res.status(200).json({
             message: "Login successful.",
             token,
@@ -245,7 +250,7 @@ app.post("/api/generate-plan", authenticateToken, async (req, res) => {
                 duration: `${Math.ceil((new Date(end_date).getTime() - new Date(start_date).getTime()) /
                     (1000 * 60 * 60 * 24))} Days`,
             },
-            budget: `IDR ${budget.toLocaleString()}`,
+            budget: `IDR ${Number(budget).toLocaleString()}`,
             imgURL: generatedPlan.imgURL || "",
             highlights: generatedPlan.destination_highlights || [],
             recommended_activities: generatedPlan.recommended_activities || [],
@@ -371,7 +376,7 @@ app.get("/api/location-image", async (req, res) => {
     const { location } = req.query;
     try {
         const googlePlacesUrl = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=${encodeURIComponent(location)}&key=${googleMapsApiKey}`;
-        const response = await axios.get(googlePlacesUrl);
+        const response = await axios_1.default.get(googlePlacesUrl);
         if (response.data.result.length === 0) {
             return res.status(404).json({
                 success: false,
@@ -379,7 +384,7 @@ app.get("/api/location-image", async (req, res) => {
             });
         }
         const placeUrl = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${response.data.result[0].place_id}&fields=photos&key=${googleMapsApiKey}`;
-        const detailsResponse = await axios.get(placeUrl);
+        const detailsResponse = await axios_1.default.get(placeUrl);
         if (detailsResponse.data.result.photos &&
             detailsResponse.data.result.photos.length > 0) {
             const photoReference = detailsResponse.data.result.photos[0].photo_reference;
@@ -411,4 +416,4 @@ app.get("/health", (req, res) => {
 app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
 });
-export default app;
+exports.default = app;

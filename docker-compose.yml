@@ -8,9 +8,8 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - NEXT_PUBLIC_GOOGLE_MAP_KEY=AIzaSyAyh4foZcK_Kcmv8w-yhH0tsJk1XZGu9cU
-      - NEXT_PUBLIC_GEMINI_API_KEY=AIzaSyB91q6_m5LJlGpH4-TuS1NRS4rqFDkD_Lw
-      # Ubah URL API menggunakan nama service
+      - GOOGLE_MAP_KEY=${GOOGLE_MAP_KEY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
       - NEXT_PUBLIC_API_URL=http://be:5000/api
     volumes:
       - ./fe:/usr/src/app
@@ -34,12 +33,14 @@ services:
       - DB_HOST=db
       - DB_DATABASE=triptix
       - DB_PASSWORD=${DB_PASSWORD}
+      - DB_PORT=5432
       - JWT_SECRET=${JWT_SECRET}
-      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
       - GOOGLE_MAP_KEY=${GOOGLE_MAP_KEY}
     volumes:
-      - ./be:/usr/src/app/
+      - ./be:/usr/src/app
       - /usr/src/app/node_modules
+      - /usr/src/app/dist
     depends_on:
       - db
     networks:
@@ -59,15 +60,14 @@ services:
     networks:
       - app_network
 
-  # Tambahkan service NGROK
   ngrok:
     image: wernight/ngrok
     ports:
       - "4040:4040"
     environment:
-      - NGROK_AUTH=${NGROK_AUTH_TOKEN} # Tambahkan token NGROK Anda di .env
+      - NGROK_AUTH=${NGROK_AUTH_TOKEN}
       - NGROK_PROTOCOL=http
-      - NGROK_PORT=web:80 # Arahkan ke service nginx
+      - NGROK_PORT=web:80
     depends_on:
       - web
     networks:
@@ -110,7 +110,5 @@ networks:
 
 volumes:
   postgres_data:
-  npm_data:
-  letsencrypt:
   nagios_etc:
   nagios_var:
